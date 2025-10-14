@@ -27,13 +27,13 @@ const Hero = () => {
               }}
           />
           <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20">
-        <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-up">
+        <div className="max-w-5xl mx-auto text-center space-y-8 animate-fade-up">
             <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter">
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent ">
                 {t("home-page.title")}
             </span>
           </h1>
-          
+
           <p className="text-xl sm:text-2xl md:text-3xl font-medium text-white max-w-2xl mx-auto leading-relaxed">
               {t("home-page.slogan")}
           </p>
