@@ -1,0 +1,513 @@
+{
+  "label": {
+    "game": "Trò chơi",
+    "career": "Tuyển dụng",
+    "support": "Hỗ trợ",
+    "about": "Về chúng tôi",
+    "company": "Công ty",
+    "name": "Tên"
+  },
+  "button": {
+    "play-now": "Chơi ngay",
+    "apply-now": "Ứng tuyển ngay"
+  },
+  "navbar": {
+    "company-name": "GPLAY",
+    "game": "Trò chơi",
+    "career": "Tuyển dụng",
+    "support": "Hỗ trợ",
+    "about": "Về chúng tôi"
+  },
+  "footer": {
+    "title": "GLOBAL PLAY STUDIO",
+    "description": "Xây dựng những trò chơi kết nối con người và mang đến trải nghiệm khó quên.",
+    "social-network": [
+      {
+        "name": "Facebook",
+        "link": "#"
+      },
+      {
+        "name": "Twitter",
+        "link": "#"
+      },
+      {
+        "name": "Instagram",
+        "link": "#"
+      },
+      {
+        "name": "Youtube",
+        "link": "#"
+      },
+      {
+        "name": "Linkedin",
+        "link": "#"
+      }
+    ],
+    "game": [
+      {
+        "name": "Realm Warriors",
+        "link": "#"
+      },
+      {
+        "name": "Neon Rush",
+        "link": "#"
+      },
+      {
+        "name": "Bubble Quest",
+        "link": "#"
+      },
+      {
+        "name": "Sắp ra mắt",
+        "link": "#"
+      }
+    ],
+    "company": [
+      {
+        "name": "Về chúng tôi",
+        "link": "#"
+      },
+      {
+        "name": "Tuyển dụng",
+        "link": "#"
+      },
+      {
+        "name": "Tài nguyên báo chí",
+        "link": "#"
+      },
+      {
+        "name": "Liên hệ",
+        "link": "#"
+      }
+    ],
+    "support": [
+      {
+        "name": "Trung tâm trợ giúp",
+        "link": "#"
+      },
+      {
+        "name": "Điều khoản dịch vụ",
+        "link": "#"
+      },
+      {
+        "name": "Chính sách bảo mật",
+        "link": "#"
+      },
+      {
+        "name": "Cộng đồng",
+        "link": "#"
+      }
+    ],
+    "copyright": "© 2025 GPlay Studio."
+  },
+  "home-page": {
+    "slogan": "Nhà sáng tạo của những tựa game huyền thoại kết nối hàng triệu người chơi",
+    "title": "GPLAY STUDIO",
+    "background": "/game-image/hero-characters.jpg",
+    "button": {
+      "watch-video": {
+        "name": "Xem video",
+        "link": "#"
+      },
+      "explore": {
+        "name": "Khám phá trò chơi",
+        "link": "/games"
+      }
+    },
+    "stat": [
+      {
+        "name": "Trò chơi",
+        "count": "200+"
+      },
+      {
+        "name": "Người chơi",
+        "count": "1000+"
+      },
+      {
+        "name": "Quốc gia",
+        "count": "100+"
+      },
+      {
+        "name": "Năm",
+        "count": "3+"
+      }
+    ],
+    "game": {
+      "title": "Trò chơi của chúng tôi",
+      "description": "Trải nghiệm những thế giới được hàng triệu người gọi là ngôi nhà",
+      "list": [
+        {
+          "name": "Realm Warriors",
+          "description": "Những trận chiến huyền thoại trong thế giới phép thuật kỳ ảo.",
+          "image": "/game-image/game-1.jpg",
+          "type": "Hành động nhập vai",
+          "type-icon": "gamepad",
+          "link": "#"
+        },
+        {
+          "name": "Neon Rush",
+          "description": "Cuộc đua tốc độ rực rỡ giữa ánh đèn neon hiện đại.",
+          "image": "/game-image/game-2.jpg",
+          "type": "Đua xe",
+          "type-icon": "zap",
+          "link": "#"
+        },
+        {
+          "name": "Bubble Quest",
+          "description": "Thế giới bong bóng kỳ thú đầy thử thách và niềm vui.",
+          "image": "/game-image/game-3.jpg",
+          "type": "Giải đố",
+          "type-icon": "heart",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "game-page": {
+    "title": "Trò chơi của chúng tôi",
+    "description": "Khám phá bộ sưu tập những trò chơi huyền thoại được hàng triệu người yêu thích trên toàn thế giới.",
+    "list": [
+      {
+        "name": "Realm Warriors",
+        "description": "Đắm chìm trong thế giới giả tưởng nơi phép thuật hòa quyện cùng chiến lược. Xây dựng đội quân, làm chủ sức mạnh và chinh phục các vương quốc trong trò chơi đối kháng nhiều người chơi đầy kịch tính.",
+        "image": "/game-image/game-1.jpg",
+        "type": "Hành động nhập vai",
+        "type-icon": "gamepad",
+        "link": "#",
+        "player-count": "1000+ người chơi",
+        "rating": "4.5",
+        "install-count": "10.000+ lượt tải"
+      },
+      {
+        "name": "Neon Rush",
+        "description": "Thế giới tốc độ rực sáng — nơi bạn chinh phục mọi cung đường trong cuộc đua điện tử tràn ngập năng lượng.",
+        "image": "/game-image/game-2.jpg",
+        "type": "Đua xe",
+        "type-icon": "zap",
+        "link": "#",
+        "player-count": "1000+ người chơi",
+        "rating": "4.5",
+        "install-count": "10.000+ lượt tải"
+      },
+      {
+        "name": "Bubble Quest",
+        "description": "Cuộc phiêu lưu đầy màu sắc qua những màn chơi giải đố vui nhộn. Bắn bong bóng, vượt thử thách và mở khóa thế giới kỳ diệu!",
+        "image": "/game-image/game-3.jpg",
+        "type": "Giải đố",
+        "type-icon": "heart",
+        "link": "#",
+        "player-count": "1000+ người chơi",
+        "rating": "4.5",
+        "install-count": "10.000+ lượt tải"
+      },
+      {
+        "name": "Sky Strikers",
+        "description": "Cất cánh cùng đội phi công tinh nhuệ, tham gia những trận chiến trên không đỉnh cao trong bầu trời rộng lớn.",
+        "image": "/game-image/game-4.jpg",
+        "type": "Hành động",
+        "type-icon": "heart",
+        "link": "#",
+        "player-count": "1000+ người chơi",
+        "rating": "4.5",
+        "install-count": "10.000+ lượt tải"
+      }
+    ],
+    "view-on-store": {
+      "title": "Tham gia cùng hàng triệu người chơi",
+      "description": "Tải game của chúng tôi và trở thành một phần trong cộng đồng GPlay toàn cầu.",
+      "android": {
+        "title": "Tải trên Android",
+        "link": "https://play.google.com/store/apps/dev?id=5898471006814482851"
+      },
+      "ios": {
+        "title": "Tải trên iOS",
+        "link": "https://apps.apple.com/vn/developer/tu-nguyen-ngoc/id1646918801?l=vi"
+      }
+    }
+  },
+  "career-page": {
+    "title": "Gia nhập cùng chúng tôi",
+    "description": "Cùng nhau tạo nên những tựa game huyền thoại với những con người đam mê và sáng tạo.",
+    "benefit": {
+      "title": "Tại sao chọn GPlay?",
+      "list": [
+        {
+          "name": "Sức khỏe & Phúc lợi",
+          "description": "Chế độ chăm sóc sức khỏe toàn diện cho bạn và gia đình.",
+          "icon": "heart"
+        },
+        {
+          "name": "Làm việc linh hoạt",
+          "description": "Môi trường làm việc từ xa với giờ giấc linh hoạt.",
+          "icon": "coffee"
+        },
+        {
+          "name": "Phát triển bản thân",
+          "description": "Ngân sách đào tạo và cơ hội học hỏi không giới hạn.",
+          "icon": "rocket"
+        },
+        {
+          "name": "Sự kiện đội nhóm",
+          "description": "Các hoạt động gắn kết và team building thường xuyên.",
+          "icon": "users"
+        },
+        {
+          "name": "Thưởng hiệu suất",
+          "description": "Chính sách lương cạnh tranh và thưởng theo thành tích.",
+          "icon": "trophy"
+        },
+        {
+          "name": "Trang thiết bị",
+          "description": "Cung cấp công cụ và phần cứng cao cấp phục vụ công việc.",
+          "icon": "briefcase"
+        }
+      ]
+    },
+    "job": {
+      "title": "Vị trí đang tuyển",
+      "count": "vị trí đang mở",
+      "list": [
+        {
+          "name": "Lập trình viên Game cao cấp",
+          "description": "Chúng tôi đang tìm kiếm một kỹ sư phần mềm tài năng để cùng phát triển các dự án trò chơi mới.",
+          "link": "#",
+          "tag": [
+            {
+              "name": "Phát triển Game",
+              "icon": "briefcase"
+            },
+            {
+              "name": "Làm việc từ xa",
+              "icon": "map"
+            },
+            {
+              "name": "Toàn thời gian",
+              "icon": "clock"
+            }
+          ]
+        },
+        {
+          "name": "Nhà thiết kế trò chơi cao cấp",
+          "description": "Dẫn dắt thiết kế gameplay sáng tạo cho các tựa game tiếp theo. Làm việc cùng đội ngũ đam mê để mang đến trải nghiệm đáng nhớ.",
+          "link": "#",
+          "tag": [
+            {
+              "name": "Thiết kế Game",
+              "icon": "briefcase"
+            },
+            {
+              "name": "Làm việc từ xa",
+              "icon": "map"
+            },
+            {
+              "name": "Toàn thời gian",
+              "icon": "clock"
+            }
+          ]
+        }
+      ],
+      "general-application": {
+        "title": "Không thấy vị trí phù hợp?",
+        "description": "Chúng tôi luôn tìm kiếm những nhân tài mới. Gửi cho chúng tôi hồ sơ của bạn và cùng trao đổi về các cơ hội trong tương lai.",
+        "text-button": "Gửi hồ sơ",
+        "link": "tuandd.gplaystudio@gmail.com"
+      }
+    }
+  },
+  "about-page": {
+    "title": "Về GPlay Studio",
+    "description": "Chúng tôi là một đội ngũ đam mê gồm các nhà phát triển, nghệ sĩ và người mơ mộng — cùng chung mục tiêu tạo nên những trải nghiệm game huyền thoại, kết nối người chơi trên khắp thế giới.",
+    "stat": [
+      {
+        "name": "Người chơi tích cực",
+        "count": "1000+",
+        "icon": "users"
+      },
+      {
+        "name": "Quốc gia",
+        "count": "100+",
+        "icon": "globe"
+      },
+      {
+        "name": "Trò chơi",
+        "count": "200+",
+        "icon": "rocket"
+      },
+      {
+        "name": "Đánh giá trung bình",
+        "count": "4.8",
+        "icon": "star"
+      }
+    ],
+    "mission": {
+      "title": "Sứ mệnh của chúng tôi",
+      "description": "Tạo ra những trò chơi vượt qua ranh giới, văn hóa và ngôn ngữ — mang đến niềm vui, sự phấn khích và kết nối cho hàng triệu người chơi trên toàn cầu."
+    },
+    "vision": {
+      "title": "Tầm nhìn của chúng tôi",
+      "description": "Trở thành công ty game được yêu thích nhất thế giới, được biết đến với những trải nghiệm khó quên và truyền cảm hứng cho thế hệ game thủ tiếp theo."
+    },
+    "value": {
+      "title": "Giá trị cốt lõi",
+      "list": [
+        {
+          "name": "Người chơi là trung tâm",
+          "description": "Mọi quyết định của chúng tôi đều bắt đầu từ người chơi. Trải nghiệm, niềm vui và phản hồi của họ là động lực cho mọi hành động.",
+          "icon": "heart"
+        },
+        {
+          "name": "Đổi mới",
+          "description": "Chúng tôi không ngừng thử nghiệm và sáng tạo để mang đến trải nghiệm trò chơi độc đáo.",
+          "icon": "zap"
+        },
+        {
+          "name": "Hợp tác",
+          "description": "Những trò chơi vĩ đại được tạo nên bởi những đội ngũ tuyệt vời. Chúng tôi đề cao giao tiếp cởi mở và tinh thần làm việc nhóm.",
+          "icon": "users"
+        },
+        {
+          "name": "Chất lượng",
+          "description": "Chúng tôi đặt ra tiêu chuẩn cao và luôn hướng đến sự hoàn thiện trong mọi khía cạnh của trò chơi và văn hóa công ty.",
+          "icon": "trophy"
+        }
+      ]
+    },
+    "milestone": [
+      {
+        "year": "2015",
+        "title": "Thành lập GPlay",
+        "description": "Bắt đầu với một nhóm nhỏ các nhà phát triển game đam mê tại TP. Hồ Chí Minh"
+      },
+      {
+        "year": "2016",
+        "title": "Ra mắt trò chơi đầu tiên",
+        "description": "Phát hành trò chơi di động đầu tiên, đạt 1 triệu lượt tải chỉ trong tháng đầu tiên"
+      },
+      {
+        "year": "2018",
+        "title": "Mở rộng toàn cầu",
+        "description": "Mở rộng thị trường quốc tế với các trò chơi có mặt tại hơn 50 quốc gia"
+      },
+      {
+        "year": "2020",
+        "title": "100 triệu người chơi",
+        "description": "Đạt cột mốc 100 triệu người chơi trên tất cả các trò chơi của GPlay"
+      },
+      {
+        "year": "2022",
+        "title": "Giành giải thưởng quốc tế",
+        "description": "Nhận nhiều giải thưởng trong ngành về thiết kế và đổi mới game"
+      },
+      {
+        "year": "2024",
+        "title": "500 triệu người chơi",
+        "description": "Phục vụ hơn 500 triệu người chơi trên toàn thế giới với hơn 7 tựa game đình đám"
+      }
+    ],
+    "join": {
+      "title": "Gia nhập hành trình cùng chúng tôi",
+      "description": "Chúng tôi luôn tìm kiếm những con người tài năng và đam mê để cùng tạo nên thế hệ game huyền thoại tiếp theo.",
+      "button-text": "Xem vị trí tuyển dụng"
+    }
+  },
+  "support-page": {
+    "title": "Cần giúp đỡ?",
+    "description": "Nhận câu trả lời cho thắc mắc và giải pháp cho vấn đề của bạn",
+    "faq": [
+      {
+        "category": "Tài khoản & Đăng nhập",
+        "questions": [
+          {
+            "q": "Làm thế nào để tạo tài khoản GPlay?",
+            "a": "Hãy tải xuống bất kỳ trò chơi nào của chúng tôi và làm theo hướng dẫn đăng ký. Bạn có thể sử dụng email, số điện thoại hoặc liên kết với tài khoản mạng xã hội. Tài khoản GPlay của bạn có thể dùng chung cho tất cả trò chơi."
+          },
+          {
+            "q": "Tôi quên mật khẩu. Làm sao để đặt lại?",
+            "a": "Nhấn vào 'Quên mật khẩu' trên màn hình đăng nhập. Nhập email hoặc số điện thoại của bạn, chúng tôi sẽ gửi liên kết đặt lại mật khẩu. Làm theo hướng dẫn để tạo mật khẩu mới."
+          },
+          {
+            "q": "Tôi có thể chơi trên nhiều thiết bị không?",
+            "a": "Có! Tài khoản GPlay của bạn được đồng bộ trên mọi thiết bị. Chỉ cần đăng nhập cùng tài khoản để tiếp tục tiến trình trò chơi của bạn."
+          }
+        ]
+      },
+      {
+        "category": "Trò chơi",
+        "questions": [
+          {
+            "q": "Làm sao để báo lỗi trong trò chơi?",
+            "a": "Sử dụng nút hỗ trợ trong trò chơi hoặc gửi phản hồi qua biểu mẫu bên dưới. Vui lòng cung cấp thông tin thiết bị, phiên bản trò chơi và mô tả lỗi. Ảnh chụp màn hình sẽ giúp ích rất nhiều!"
+          },
+          {
+            "q": "Trò chơi có mua hàng trong ứng dụng không?",
+            "a": "Các trò chơi của chúng tôi miễn phí để chơi, nhưng có cung cấp mua hàng trong ứng dụng tùy chọn. Bạn vẫn có thể trải nghiệm toàn bộ trò chơi mà không cần chi tiền. Các vật phẩm mua thường mang tính trang trí hoặc hỗ trợ tiến trình nhanh hơn."
+          },
+          {
+            "q": "Làm sao để kết nối với bạn bè?",
+            "a": "Mở mục Bạn bè trong trò chơi, tìm kiếm tên người dùng của họ hoặc liên kết tài khoản mạng xã hội. Bạn cũng có thể sử dụng mã mời để thêm bạn trực tiếp."
+          }
+        ]
+      },
+      {
+        "category": "Vấn đề kỹ thuật",
+        "questions": [
+          {
+            "q": "Trò chơi không tải được. Tôi nên làm gì?",
+            "a": "Hãy thử các bước sau: 1) Kiểm tra kết nối Internet, 2) Khởi động lại ứng dụng, 3) Xóa bộ nhớ đệm trò chơi, 4) Cập nhật phiên bản mới nhất, 5) Khởi động lại thiết bị. Nếu vẫn gặp lỗi, vui lòng liên hệ bộ phận hỗ trợ."
+          },
+          {
+            "q": "Tại sao trò chơi bị giật hoặc lag?",
+            "a": "Hiện tượng lag có thể do mạng chậm, bộ nhớ thiết bị thấp hoặc đang mở quá nhiều ứng dụng. Hãy đóng các ứng dụng nền, đảm bảo kết nối ổn định và thử giảm thiết lập đồ họa trong trò chơi."
+          },
+          {
+            "q": "Làm sao để cập nhật trò chơi?",
+            "a": "Truy cập cửa hàng ứng dụng (App Store hoặc Google Play), tìm trò chơi và nhấn 'Cập nhật'. Bạn có thể bật cập nhật tự động để luôn có phiên bản mới nhất."
+          }
+        ]
+      },
+      {
+        "category": "Thanh toán & Mua hàng",
+        "questions": [
+          {
+            "q": "Tôi đã thanh toán nhưng chưa nhận được vật phẩm",
+            "a": "Trước tiên, hãy khởi động lại trò chơi để kiểm tra. Nếu vẫn chưa nhận được, hãy liên hệ bộ phận hỗ trợ và gửi kèm hóa đơn thanh toán. Hầu hết các vấn đề sẽ được xử lý trong vòng 24 giờ."
+          },
+          {
+            "q": "Tôi có thể yêu cầu hoàn tiền không?",
+            "a": "Chính sách hoàn tiền phụ thuộc vào cửa hàng ứng dụng bạn sử dụng (Apple hoặc Google). Thông thường, bạn có thể yêu cầu hoàn tiền trong một khoảng thời gian nhất định. Vui lòng kiểm tra chính sách hoàn tiền của cửa hàng hoặc liên hệ hỗ trợ của họ."
+          },
+          {
+            "q": "Những phương thức thanh toán nào được chấp nhận?",
+            "a": "Chúng tôi chấp nhận tất cả các phương thức thanh toán do cửa hàng ứng dụng của bạn hỗ trợ, bao gồm thẻ tín dụng, thẻ ghi nợ, PayPal và thẻ quà tặng của cửa hàng."
+          }
+        ]
+      }
+    ],
+    "channel": [
+      {
+        "icon": "message",
+        "title": "Trò chuyện trực tiếp",
+        "description": "Trao đổi với đội ngũ hỗ trợ của chúng tôi",
+        "action": "Bắt đầu trò chuyện",
+        "available": "Hoạt động 24/7"
+      },
+      {
+        "icon": "mail",
+        "title": "Hỗ trợ qua email",
+        "description": "support@gplay.com",
+        "action": "Gửi email",
+        "available": "Phản hồi trong vòng 24 giờ"
+      },
+      {
+        "icon": "book",
+        "title": "Trung tâm kiến thức",
+        "description": "Xem các bài viết hướng dẫn và giải đáp",
+        "action": "Truy cập trung tâm hỗ trợ",
+        "available": "Luôn sẵn sàng"
+      }
+    ],
+    "submit-request": {
+      "title": "Submit a Request",
+      "description": "Can't find what you're looking for? Send us a message and we'll get back to you soon."
+    }
+  }
+}
