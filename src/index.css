@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
 
@@ -17,25 +17,25 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 5%;
 
-    --primary: 220 90% 56%;
+    --primary: 45 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 90% 70%;
+    --primary-glow: 45 100% 70%;
 
-    --secondary: 280 85% 60%;
+    --secondary: 40 95% 60%;
     --secondary-foreground: 0 0% 100%;
 
-    --accent: 30 95% 60%;
+    --accent: 48 100% 62%;
     --accent-foreground: 0 0% 5%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 40%;
+      --muted: 0 0% 0%;
+      --muted-foreground: 0 0% 60%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 220 90% 56%;
+    --ring: 45 100% 50%;
 
     --radius: 0.75rem;
 
@@ -48,10 +48,10 @@ All colors MUST be HSL.
     --gradient-hero: linear-gradient(135deg, hsl(220 90% 96%), hsl(280 85% 96%));
     --gradient-card: linear-gradient(135deg, hsl(220 90% 56%), hsl(280 85% 60%));
     --gradient-accent: linear-gradient(135deg, hsl(30 95% 60%), hsl(330 85% 65%));
-    
+
     --shadow-gaming: 0 10px 40px -10px hsl(220 90% 56% / 0.3);
     --shadow-glow: 0 0 60px hsl(220 90% 70% / 0.4);
-    
+
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 

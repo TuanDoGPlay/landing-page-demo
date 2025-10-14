@@ -10,6 +10,7 @@ const Navigation = () => {
     const [language, setLanguage] = useState(localStorage.getItem("lang") || "vi");
 
     const navItems = [
+        {label: t("navbar.home"), href: "/"},
         {label: t("navbar.game"), href: "/games"},
         {label: t("navbar.career"), href: "/careers"},
         {label: t("navbar.support"), href: "/support"},
@@ -19,7 +20,7 @@ const Navigation = () => {
     const languages = [
         {code: "vi", name: "VI", label: "Tiếng Việt"},
         {code: "en", name: "EN", label: "English"},
-        {code: "jp", name: "JP", label: "Nico nico ni"},
+        {code: "jp", name: "JP", label: "日本語"},
     ];
 
     const handleLangChange = (code: string) => {

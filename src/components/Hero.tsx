@@ -15,25 +15,26 @@ const Hero = () => {
 
   return (
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      <div 
-        className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          opacity: 0.15
-        }}
-      />
-      
-      <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20">
+          <div
+              className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/40"
+              style={{
+                  backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
+      url(${heroImage})
+    `,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+              }}
+          />
+          <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-up">
             <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter">
-            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-glow">
+            <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent ">
                 {t("home-page.title")}
             </span>
           </h1>
           
-          <p className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl sm:text-2xl md:text-3xl font-medium text-white max-w-2xl mx-auto leading-relaxed">
               {t("home-page.slogan")}
           </p>
 
@@ -60,13 +61,13 @@ const Hero = () => {
             {stats.map((stat, index) => (
                 <div
                     key={index}
-              className="text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border border-border hover:border-primary/50 transition-all hover:scale-105 animate-scale-in"
+              className="text-center p-6 rounded-2xl backdrop-blur-sm border border-border hover:border-primary/50 transition-all hover:scale-105 animate-scale-in cursor-default"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="text-3xl sm:text-4xl font-black text-primary mb-2">
                   {stat.count}
               </div>
-              <div className="text-sm text-muted-foreground font-medium">
+              <div className="text-sm text-white font-medium">
                   {stat.name}
               </div>
             </div>
