@@ -18,8 +18,11 @@ import {initReactI18next} from "react-i18next";
 import en from "./en.json";
 import vn from "./vn.json";
 
-const savedLang = localStorage.getItem("lang") || "vn";
-
+let savedLang = localStorage.getItem("lang") || "vn";
+if (savedLang != "vn" && savedLang != "en") {
+    localStorage.setItem("lang", "vn")
+    savedLang = "vn";
+}
 i18n
     .use(initReactI18next) // kết nối với React
     .init({
