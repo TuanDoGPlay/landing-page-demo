@@ -6,22 +6,8 @@ import {useTranslation} from "react-i18next";
 import info from "@/assets/data/info.json";
 import {Facebook, Mail, Phone} from "lucide-react";
 
-interface SupportChannel {
-    title: string;
-    description: string;
-    available: string;
-    action: string;
-    icon: string;
-}
-
 const Support = () => {
     const { t } = useTranslation();
-    const supportChannels = t("support-page.channel", { returnObjects: true }) as SupportChannel[];
-
-    supportChannels.forEach(channel => {
-        if (channel.icon === "phone") channel.available = info.phone
-    })
-
     return (
         <div className="min-h-screen bg-[#0a0a0a] text-gray-100">
             <Navigation />

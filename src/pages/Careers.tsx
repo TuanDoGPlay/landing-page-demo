@@ -11,6 +11,7 @@ import {Job} from "@/common/types.ts";
 import {JobTypeMap} from "@/constants/jobType.ts";
 import LocalizeText from "@/components/LocalizeText.tsx";
 import benefits from "@/assets/data/benefits.json";
+import CompanyGallery from "@/components/CompanyGallery.tsx";
 
 interface Benefit {
     name: string;
@@ -43,7 +44,7 @@ const Careers = () => {
 
                 {/* --- Benefits Section --- */}
                 <section className="container px-4 sm:px-6 lg:px-8 mb-24">
-                    <div className="max-w-6xl mx-auto">
+                    <div className="max-w-8xl mx-auto">
                         <h2 className="text-3xl font-black mb-8 text-white">
                             {t("career-page.benefit.title")}
                         </h2>
@@ -68,10 +69,10 @@ const Careers = () => {
                         </div>
                     </div>
                 </section>
-
+                <CompanyGallery />
                 {/* --- Job Openings Section --- */}
                 <section className="container px-4 sm:px-6 lg:px-8 mb-24">
-                    <div className="max-w-6xl mx-auto">
+                    <div className="max-w-8xl mx-auto">
                         <div className="flex items-center justify-between mb-8">
                             <h2 className="text-3xl font-black text-white">
                                 {t("career-page.job.title")}

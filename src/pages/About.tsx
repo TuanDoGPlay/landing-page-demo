@@ -5,6 +5,8 @@ import {Badge} from "@/components/ui/badge";
 import {Target} from "lucide-react";
 import {useTranslation} from "react-i18next";
 import {Icon} from "@/lib/utils.ts";
+import info from "@/assets/data/info.json";
+import CompanyGallery from "@/components/CompanyGallery.tsx";
 
 interface Stat {
     name: string;
@@ -27,19 +29,40 @@ interface Milestone {
 const About = () => {
     const { t } = useTranslation();
 
-    const stats = t("about-page.stat", { returnObjects: true }) as Stat[];
     const values = t("about-page.value.list", { returnObjects: true }) as Value[];
     const milestones = t("about-page.milestone", { returnObjects: true }) as Milestone[];
 
+    const stats: Stat[] = [
+        {
+            icon: "gamepad",
+            name: "label.game",
+            count: info.homeStats.gameCount,
+        },
+        {
+            icon: "users",
+            name: "label.player",
+            count: info.homeStats.playerCount,
+        },
+        {
+            icon: "globe",
+            name: "label.country",
+            count: info.homeStats.countryCount,
+        },
+        {
+            icon: "rocket",
+            name: "label.year",
+            count: info.homeStats.yearCount,
+        },
+    ]
     return (
         <div className="min-h-screen bg-[#0a0a0a] text-gray-100">
             <Navigation />
 
-            <main className="pt-24 pb-16">
+            <main className="pt-32 pb-16">
                 {/* --- Intro --- */}
-                <section className="container px-4 sm:px-6 lg:px-8 mb-24">
+                <section className="container px-4 sm:px-6 lg:px-8 mb-16">
                     <div className="text-center space-y-6 animate-fade-up max-w-4xl mx-auto">
-                        <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight text-white">
+                        <h1 className="text-5xl sm:text-8xl md:text-7xl font-black tracking-tight text-white">
                             {t("about-page.title")}
                         </h1>
                         <p className="text-xl text-gray-400 leading-relaxed">
@@ -49,8 +72,8 @@ const About = () => {
                 </section>
 
                 {/* --- Stats --- */}
-                <section className="container px-4 sm:px-6 lg:px-8 mb-24">
-                    <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                <section className="container px-4 sm:px-6 lg:px-8 mb-16">
+                    <div className="grid md:grid-cols-4 gap-6 max-w-8xl mx-auto">
                         {stats.map((stat, index) => (
                             <Card
                                 key={index}
@@ -68,11 +91,11 @@ const About = () => {
                         ))}
                     </div>
                 </section>
-
+                <CompanyGallery/>
                 {/* --- Mission & Vision --- */}
-                <section className="container px-4 sm:px-6 lg:px-8 mb-24">
-                    <div className="max-w-6xl mx-auto">
-                        <div className="text-center mb-12">
+                <section className="container px-4 sm:px-6 lg:px-8 mb-40">
+                    <div className="max-w-8xl mx-auto">
+                        <div className="text-center mb-20">
                             <div className="inline-flex items-center gap-2 mb-4">
                                 <Target className="h-8 w-8 text-yellow-400" />
                                 <h2 className="text-4xl font-black text-white">
@@ -96,8 +119,8 @@ const About = () => {
                 </section>
 
                 {/* --- Core Values --- */}
-                <section className="container px-4 sm:px-6 lg:px-8 mb-24">
-                    <div className="max-w-6xl mx-auto">
+                <section className="container px-4 sm:px-6 lg:px-8 mb-40">
+                    <div className="max-w-8xl mx-auto">
                         <h2 className="text-4xl font-black mb-12 text-center text-white">
                             {t("about-page.value.title")}
                         </h2>
