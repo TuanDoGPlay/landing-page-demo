@@ -11,8 +11,24 @@
 
  * Note:
  */
+import {GameTypeEnum} from "@/constants/gameType.ts";
+import {JobTypeEnum} from "@/constants/jobType.ts";
 
-export interface Item {
-    name: string;
-    link: string;
+export interface Game {
+    name: string
+    playstore: string
+    appstore?: string
+    install: string
+    desEn: string
+    desVn?: string
+    type: GameTypeEnum
+    image: string
+    rating: number
+}
+
+export interface Job {
+    name: string
+    desVn: string
+    desEn: string
+    types: JobTypeEnum[]
 }

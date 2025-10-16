@@ -1,33 +1,27 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Download, Star, Users } from "lucide-react";
-import { useTranslation } from "react-i18next";
-import { Icon } from "@/lib/utils.ts";
-
-interface Game {
-    name: string;
-    description: string;
-    image: string;
-    type: string;
-    "type-icon": string;
-    link: string;
-    "player-count": string;
-    rating: string;
-    "install-count": string;
-}
+import {Card, CardContent} from "@/components/ui/card";
+import {Button} from "@/components/ui/button";
+import {Badge} from "@/components/ui/badge";
+import {Download} from "lucide-react";
+import {useTranslation} from "react-i18next";
+import {Icon} from "@/lib/utils.ts";
+import games from "@/assets/data/games.json";
+import {Game} from "@/common/types.ts";
+import info from "@/assets/data/info.json";
+import {IconBrandAppstore, IconBrandGooglePlay} from "@tabler/icons-react";
+import {GameTypeMap} from "@/constants/gameType.ts";
+import LocalizeText from "@/components/LocalizeText.tsx";
 
 const Games = () => {
     const { t } = useTranslation();
-    const allGames = t("game-page.list", { returnObjects: true }) as Game[];
+    const allGames = games as Game[];
 
     return (
         <div className="min-h-screen bg-[#0a0a0a] text-gray-100">
             <Navigation />
 
-            <main className="pt-24 pb-16">
+            <main className="pt-40 pb-20">
                 {/* Title */}
                 <section className="container px-4 sm:px-6 lg:px-8 mb-16">
                     <div className="text-center space-y-4 animate-fade-up max-w-3xl mx-auto">
@@ -42,7 +36,7 @@ const Games = () => {
 
                 {/* Games Grid */}
                 <section className="container px-4 sm:px-6 lg:px-8">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
                         {allGames.map((game, index) => (
                             <Card
                                 key={index}
@@ -53,7 +47,7 @@ const Games = () => {
                                     {/* Image */}
                                     <div className="relative overflow-hidden aspect-video">
                                         <img
-                                            src={game.image}
+                                            src={"/game-image/" + game.image}
                                             alt={game.name}
                                             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                         />
@@ -62,8 +56,8 @@ const Games = () => {
                                         {/* Badge */}
                                         <div className="absolute top-4 left-4 flex gap-2">
                                             <Badge className="bg-black/70 backdrop-blur-sm text-gray-200 border border-gray-700">
-                                                {Icon(game["type-icon"], "h-4 w-4 text-yellow-400 mr-2")}
-                                                {game.type}
+                                                {Icon(GameTypeMap.get(game.type).icon, "h-4 w-4 text-yellow-400 mr-2")}
+                                                {GameTypeMap.get(game.type).toString()}
                                             </Badge>
                                         </div>
                                     </div>
@@ -74,32 +68,33 @@ const Games = () => {
                                             <h3 className="text-2xl font-bold text-white group-hover:text-yellow-400 transition-colors mb-2">
                                                 {game.name}
                                             </h3>
-                                            <p className="text-gray-400 text-sm line-clamp-2">
-                                                {game.description}
-                                            </p>
+                                            <LocalizeText data={game}
+                                                          className="text-gray-400 text-sm line-clamp-2"/>
                                         </div>
 
                                         <div className="flex items-center gap-4 text-sm text-gray-400">
                                             <div className="flex items-center gap-1">
-                                                <Users className="h-4 w-4" />
-                                                <span>{game["player-count"]}</span>
-                                            </div>
-                                            <div className="flex items-center gap-1">
-                                                <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                                                <span>{game.rating}</span>
-                                            </div>
-                                            <div className="flex items-center gap-1">
                                                 <Download className="h-4 w-4" />
-                                                <span>{game["install-count"]}</span>
+                                                <span>{game.install} {t("label.download")}</span>
                                             </div>
                                         </div>
 
-                                        <Button
-                                            className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold transition-colors"
-                                            variant="default"
-                                        >
-                                            {t("button.play-now")}
-                                        </Button>
+                                        <div className="flex gap-5">
+                                            <Button
+                                                className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold transition-colors"
+                                                variant="default"
+                                            >
+                                                <IconBrandGooglePlay/>
+                                                {t("button.play-on-android")}
+                                            </Button>
+                                            {game.appstore && <Button
+                                                className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold transition-colors"
+                                                variant="default"
+                                            >
+                                                <IconBrandAppstore/>
+                                                {t("button.play-on-ios")}
+                                            </Button>}
+                                        </div>
                                     </div>
                                 </CardContent>
                             </Card>
@@ -121,7 +116,7 @@ const Games = () => {
                                 size="lg"
                                 className="text-lg px-8 bg-yellow-500 hover:bg-yellow-400 text-black font-semibold"
                                 onClick={() =>
-                                    window.open(t("game-page.view-on-store.android.link"), "_blank")
+                                    window.open(info.gameStore.android, "_blank")
                                 }
                             >
                                 <Download className="mr-2 h-5 w-5" />
@@ -130,9 +125,9 @@ const Games = () => {
                             <Button
                                 size="lg"
                                 variant="outline"
-                                className="text-lg px-8 border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-colors"
+                                className="text-lg px-8 border border-yellow-400 text-yellow-400 hover:bg-yellow-400 bg-transparent hover:text-black transition-all"
                                 onClick={() =>
-                                    window.open(t("game-page.view-on-store.ios.link"), "_blank")
+                                    window.open(info.gameStore.ios, "_blank")
                                 }
                             >
                                 <Download className="mr-2 h-5 w-5" />

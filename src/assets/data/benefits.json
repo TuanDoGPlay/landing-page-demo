@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sức khỏe & Phúc lợi",
+    "description": "Chế độ BHXH, BHYT, BHTN đầy đủ cùng 12 ngày nghỉ phép có thể chuyển sang năm sau. Quà và thưởng các dịp lễ 08/03, 20/10, Trung thu, Tết...",
+    "icon": "heart"
+  },
+  {
+    "name": "Làm việc linh hoạt",
+    "description": "Review tăng lương không giới hạn dựa trên tiềm năng và đóng góp. Môi trường làm việc thân thiện, hiện đại, hỗ trợ làm việc linh hoạt.",
+    "icon": "coffee"
+  },
+  {
+    "name": "Phát triển bản thân",
+    "description": "Cơ hội học hỏi, đào tạo chuyên môn và phát triển tư duy cùng đội ngũ Leader giàu kinh nghiệm. Hướng tới sự thăng tiến dài hạn trong ngành game.",
+    "icon": "rocket"
+  },
+  {
+    "name": "Sự kiện đội nhóm",
+    "description": "Du lịch, team building ít nhất 2 lần/năm, sinh nhật hàng tháng và Happy Time với đồ ăn, đồ uống, trò chơi nội bộ gắn kết đội ngũ.",
+    "icon": "users"
+  },
+  {
+    "name": "Thưởng hiệu suất",
+    "description": "Thưởng kinh doanh theo % lợi nhuận (Profit Share), thưởng các dịp lễ lớn 30/4, 1/5, 2/9, Tết Dương lịch cùng chính sách lương cạnh tranh.",
+    "icon": "trophy"
+  },
+  {
+    "name": "Trang thiết bị",
+    "description": "Pantry miễn phí café, trà, đồ uống; khu giải trí gồm Bi-a, PS, Board Game... Cung cấp đầy đủ thiết bị hiện đại phục vụ công việc và sáng tạo.",
+    "icon": "briefcase"
+  }
+]

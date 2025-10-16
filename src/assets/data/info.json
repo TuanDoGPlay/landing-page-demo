@@ -1,0 +1,16 @@
+{
+  "homeStats": {
+    "gameCount": "200+",
+    "playerCount": "1000+",
+    "countryCount": "100+",
+    "yearCount": "3+",
+    "rating": "4.8"
+  },
+  "gameStore": {
+    "android": "https://play.google.com/store/apps/dev?id=5898471006814482851",
+    "ios": "https://apps.apple.com/vn/developer/tu-nguyen-ngoc/id1646918801"
+  },
+  "mailHr": "hr.gplaystudio@gmail.com",
+  "phone": "0123 456 789",
+  "pageFB": "https://www.facebook.com/gplay.globalplaystudio"
+}

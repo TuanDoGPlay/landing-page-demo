@@ -1,15 +1,22 @@
 {
   "label": {
-    "game": "Games",
-    "career": "Careers",
+    "game": "Game",
+    "career": "Career",
     "support": "Support",
     "about": "About Us",
     "company": "Company",
-    "name": "Name"
+    "name": "Name",
+    "player": "Player",
+    "country": "Country",
+    "year": "Year",
+    "download": "downloads",
+    "contact": "Contact"
   },
   "button": {
     "play-now": "Play Now",
-    "apply-now": "Apply Now"
+    "apply-now": "Apply Now",
+    "play-on-android": "Play on Android",
+    "play-on-ios": "Play on iOS"
   },
   "navbar": {
     "home": "Home",
@@ -23,29 +30,14 @@
     "title": "GLOBAL PLAY STUDIO",
     "description": "Building games that connect people and create unforgettable experiences.",
     "social-network": [
-      { "name": "Facebook", "link": "#" },
-      { "name": "Twitter", "link": "#" },
-      { "name": "Instagram", "link": "#" },
-      { "name": "Youtube", "link": "#" },
-      { "name": "Linkedin", "link": "#" }
-    ],
-    "game": [
-      { "name": "Realm Warriors", "link": "#" },
-      { "name": "Neon Rush", "link": "#" },
-      { "name": "Bubble Quest", "link": "#" },
-      { "name": "Coming Soon", "link": "#" }
-    ],
-    "company": [
-      { "name": "About Us", "link": "#" },
-      { "name": "Careers", "link": "#" },
-      { "name": "Press Kit", "link": "#" },
-      { "name": "Contact", "link": "#" }
-    ],
-    "support": [
-      { "name": "Help Center", "link": "#" },
-      { "name": "Terms of Service", "link": "#" },
-      { "name": "Privacy Policy", "link": "#" },
-      { "name": "Community", "link": "#" }
+      {
+        "name": "Facebook",
+        "link": "#"
+      },
+      {
+        "name": "Tiktok",
+        "link": "#"
+      }
     ],
     "copyright": "© 2025 GPlay Studio."
   },
@@ -54,213 +46,72 @@
     "slogan": "Be Different With GPLAY",
     "background": "/game-image/hero-characters.jpg",
     "button": {
-      "watch-video": {
-        "name": "Watch Video",
-        "link": "#"
+      "introduce": {
+        "name": "Introduce",
+        "link": "/about"
       },
       "explore": {
         "name": "Explore Games",
         "link": "/games"
       }
     },
-    "stat": [
-      { "name": "Games", "count": "200+" },
-      { "name": "Players", "count": "1000+" },
-      { "name": "Countries", "count": "100+" },
-      { "name": "Years", "count": "3+" }
-    ],
     "game": {
       "title": "Our Games",
-      "description": "Experience the worlds that millions call home.",
-      "list": [
-        {
-          "name": "Realm Warriors",
-          "description": "Epic fantasy battles in a world of magical power.",
-          "image": "/game-image/game-1.jpg",
-          "type": "Action RPG",
-          "type-icon": "gamepad",
-          "link": "#"
-        },
-        {
-          "name": "Neon Rush",
-          "description": "High-speed neon races filled with adrenaline and style.",
-          "image": "/game-image/game-2.jpg",
-          "type": "Racing",
-          "type-icon": "zap",
-          "link": "#"
-        },
-        {
-          "name": "Bubble Quest",
-          "description": "A colorful bubble world full of fun and challenges.",
-          "image": "/game-image/game-3.jpg",
-          "type": "Puzzle",
-          "type-icon": "heart",
-          "link": "#"
-        }
-      ]
+      "description": "Experience worlds that millions call home."
     }
   },
   "game-page": {
     "title": "Our Games",
-    "description": "Explore a collection of legendary games loved by millions around the world.",
-    "list": [
-      {
-        "name": "Realm Warriors",
-        "description": "Immerse yourself in a fantasy world where magic meets strategy. Build your army, master your powers, and conquer kingdoms in this epic multiplayer battle game.",
-        "image": "/game-image/game-1.jpg",
-        "type": "Action RPG",
-        "type-icon": "gamepad",
-        "link": "#",
-        "player-count": "1000+ players",
-        "rating": "4.5",
-        "install-count": "10,000+ installs"
-      },
-      {
-        "name": "Neon Rush",
-        "description": "Race through dazzling neon tracks, mastering speed and precision in a world of pure energy.",
-        "image": "/game-image/game-2.jpg",
-        "type": "Racing",
-        "type-icon": "zap",
-        "link": "#",
-        "player-count": "1000+ players",
-        "rating": "4.5",
-        "install-count": "10,000+ installs"
-      },
-      {
-        "name": "Bubble Quest",
-        "description": "Embark on a vibrant puzzle adventure. Pop bubbles, overcome challenges, and unlock magical worlds!",
-        "image": "/game-image/game-3.jpg",
-        "type": "Puzzle",
-        "type-icon": "heart",
-        "link": "#",
-        "player-count": "1000+ players",
-        "rating": "4.5",
-        "install-count": "10,000+ installs"
-      },
-      {
-        "name": "Sky Strikers",
-        "description": "Take flight with elite pilots and engage in epic aerial battles across the vast skies.",
-        "image": "/game-image/game-4.jpg",
-        "type": "Action",
-        "type-icon": "heart",
-        "link": "#",
-        "player-count": "1000+ players",
-        "rating": "4.5",
-        "install-count": "10,000+ installs"
-      }
-    ],
+    "description": "Explore our collection of legendary games loved by millions of players worldwide.",
     "view-on-store": {
-      "title": "Join Millions of Players",
+      "title": "Join millions of players",
       "description": "Download our games and become part of the global GPlay community.",
       "android": {
-        "title": "Download on Android",
-        "link": "https://play.google.com/store/apps/dev?id=5898471006814482851"
+        "title": "Download on Android"
       },
       "ios": {
-        "title": "Download on iOS",
-        "link": "https://apps.apple.com/vn/developer/tu-nguyen-ngoc/id1646918801?l=vi"
+        "title": "Download on iOS"
       }
     }
   },
   "career-page": {
     "title": "Join Our Team",
-    "description": "Create legendary games with passionate and creative people.",
+    "description": "Create amazing games together with passionate and creative people.",
     "benefit": {
-      "title": "Why GPlay?",
-      "list": [
-        {
-          "name": "Health & Wellness",
-          "description": "Comprehensive healthcare for you and your family.",
-          "icon": "heart"
-        },
-        {
-          "name": "Flexible Work",
-          "description": "Remote-friendly environment with flexible hours.",
-          "icon": "coffee"
-        },
-        {
-          "name": "Personal Growth",
-          "description": "Unlimited learning opportunities and development budget.",
-          "icon": "rocket"
-        },
-        {
-          "name": "Team Events",
-          "description": "Regular team-building and social activities.",
-          "icon": "users"
-        },
-        {
-          "name": "Performance Bonus",
-          "description": "Competitive salary and performance-based rewards.",
-          "icon": "trophy"
-        },
-        {
-          "name": "Equipment",
-          "description": "Top-tier tools and hardware for your best work.",
-          "icon": "briefcase"
-        }
-      ]
+      "title": "Why Choose GPlay?"
     },
     "job": {
       "title": "Open Positions",
-      "count": "open roles",
-      "list": [
-        {
-          "name": "Senior Game Developer",
-          "description": "We’re looking for a talented software engineer to help develop our next-generation games.",
-          "link": "#",
-          "tag": [
-            { "name": "Game Development", "icon": "briefcase" },
-            { "name": "Remote", "icon": "map" },
-            { "name": "Full-time", "icon": "clock" }
-          ]
-        },
-        {
-          "name": "Senior Game Designer",
-          "description": "Lead the design of creative gameplay experiences for our upcoming titles. Work with a passionate team to craft unforgettable moments.",
-          "link": "#",
-          "tag": [
-            { "name": "Game Design", "icon": "briefcase" },
-            { "name": "Remote", "icon": "map" },
-            { "name": "Full-time", "icon": "clock" }
-          ]
-        }
-      ],
+      "count": "positions available",
       "general-application": {
-        "title": "Don’t See Your Role?",
-        "description": "We’re always looking for talented people. Send us your resume and let’s talk about future opportunities.",
-        "text-button": "Send Application",
-        "link": "tuandd.gplaystudio@gmail.com"
+        "title": "Don’t see a suitable position?",
+        "description": "We’re always looking for new talent. Send us your resume and let’s discuss future opportunities together.",
+        "text-button": "Send Resume"
       }
     }
   },
   "about-page": {
     "title": "About GPlay Studio",
-    "description": "We’re a passionate team of developers, artists, and dreamers — united by our mission to create legendary gaming experiences that connect players around the world.",
-    "stat": [
-      { "name": "Active Players", "count": "1000+", "icon": "users" },
-      { "name": "Countries", "count": "100+", "icon": "globe" },
-      { "name": "Games", "count": "200+", "icon": "rocket" },
-      { "name": "Average Rating", "count": "4.8", "icon": "star" }
-    ],
+    "description": "We are a passionate team of developers, artists, and dreamers — united by a shared mission to create legendary gaming experiences that connect players around the world.",
     "mission": {
       "title": "Our Mission",
-      "description": "To create games that transcend boundaries, cultures, and languages — bringing joy, excitement, and connection to millions of players worldwide."
+      "description": "To create games that transcend boundaries, cultures, and languages — bringing joy, excitement, and connection to millions of players globally."
     },
     "vision": {
       "title": "Our Vision",
-      "description": "To become the world’s most loved game studio — known for unforgettable experiences and inspiring the next generation of gamers."
+      "description": "To become the world’s most beloved game company, known for unforgettable experiences and inspiring the next generation of gamers."
     },
     "value": {
-      "title": "Our Core Values",
+      "title": "Core Values",
       "list": [
         {
-          "name": "Player-Centric",
-          "description": "Every decision starts with our players. Their experience, joy, and feedback drive everything we do.",
+          "name": "Players First",
+          "description": "Every decision starts with the player. Their experience, joy, and feedback drive everything we do.",
           "icon": "heart"
         },
         {
           "name": "Innovation",
-          "description": "We constantly experiment and innovate to deliver unique and engaging gaming experiences.",
+          "description": "We continuously experiment and create to deliver unique gaming experiences.",
           "icon": "zap"
         },
         {
@@ -270,7 +121,7 @@
         },
         {
           "name": "Quality",
-          "description": "We set high standards and strive for excellence in every aspect of our games and culture.",
+          "description": "We set high standards and strive for excellence in every aspect of our games and company culture.",
           "icon": "trophy"
         }
       ]
@@ -278,140 +129,64 @@
     "milestone": [
       {
         "year": "2015",
-        "title": "Founded GPlay",
-        "description": "Started with a small group of passionate developers in Ho Chi Minh City."
+        "title": "GPlay Founded",
+        "description": "Started with a small group of passionate game developers in Ho Chi Minh City."
       },
       {
         "year": "2016",
-        "title": "First Game Released",
-        "description": "Launched our first mobile title, reaching 1 million downloads in its first month."
+        "title": "First Game Launch",
+        "description": "Released our first mobile game, reaching 1 million downloads in the first month."
       },
       {
         "year": "2018",
         "title": "Global Expansion",
-        "description": "Expanded internationally with games available in over 50 countries."
+        "description": "Expanded to international markets with games available in over 50 countries."
       },
       {
         "year": "2020",
         "title": "100 Million Players",
-        "description": "Reached 100 million players across all GPlay titles."
+        "description": "Reached 100 million players across all GPlay games."
       },
       {
         "year": "2022",
-        "title": "International Awards",
-        "description": "Received multiple industry awards for design and innovation."
+        "title": "International Recognition",
+        "description": "Received multiple industry awards for game design and innovation."
       },
       {
         "year": "2024",
         "title": "500 Million Players",
-        "description": "Serving over 500 million players worldwide with 7 hit titles."
+        "description": "Serving over 500 million players worldwide with more than 7 hit titles."
       }
     ],
     "join": {
       "title": "Join Our Journey",
-      "description": "We’re always looking for talented and passionate people to create the next generation of legendary games.",
+      "description": "We’re always looking for talented and passionate people to help us build the next generation of legendary games.",
       "button-text": "View Open Positions"
     }
   },
   "support-page": {
-    "title": "How Can We Help?",
-    "description": "Get answers to your questions and solutions to your problems.",
-    "faq": [
-      {
-        "category": "Account & Login",
-        "questions": [
-          {
-            "q": "How do I create a GPlay account?",
-            "a": "Download any of our games and follow the sign-up instructions. You can use your email, phone number, or connect your social media account. Your GPlay account works across all our games."
-          },
-          {
-            "q": "I forgot my password. How can I reset it?",
-            "a": "Click 'Forgot Password' on the login screen. Enter your email or phone number and we’ll send you a reset link. Follow the instructions to create a new password."
-          },
-          {
-            "q": "Can I play on multiple devices?",
-            "a": "Yes! Your GPlay account syncs across all devices. Simply log in with the same account to continue your progress."
-          }
-        ]
-      },
-      {
-        "category": "Gameplay",
-        "questions": [
-          {
-            "q": "How can I report a bug?",
-            "a": "Use the in-game support button or contact us through the form below. Please include your device model, game version, and a description of the issue. Screenshots are very helpful!"
-          },
-          {
-            "q": "Are there in-app purchases?",
-            "a": "Our games are free to play with optional in-app purchases. You can enjoy all core features without spending money. Purchases are usually for cosmetic items or faster progression."
-          },
-          {
-            "q": "How can I add friends?",
-            "a": "Open the Friends menu in-game, search for their username, or link your social media accounts. You can also use invite codes to add friends directly."
-          }
-        ]
-      },
-      {
-        "category": "Technical Issues",
-        "questions": [
-          {
-            "q": "The game won’t load. What should I do?",
-            "a": "Try the following: 1) Check your internet connection, 2) Restart the app, 3) Clear game cache, 4) Update to the latest version, 5) Restart your device. If the problem persists, contact support."
-          },
-          {
-            "q": "Why is my game lagging?",
-            "a": "Lag can be caused by slow internet, low memory, or too many apps running. Close background apps, ensure a stable connection, and try lowering graphics settings."
-          },
-          {
-            "q": "How do I update the game?",
-            "a": "Go to your app store (App Store or Google Play), find the game, and tap 'Update'. Enable auto-updates to always stay current."
-          }
-        ]
-      },
-      {
-        "category": "Purchases & Payments",
-        "questions": [
-          {
-            "q": "I made a purchase but didn’t receive my items.",
-            "a": "Restart the game first to check. If the items are still missing, contact support and include your purchase receipt. Most issues are resolved within 24 hours."
-          },
-          {
-            "q": "Can I request a refund?",
-            "a": "Refund policies depend on your app store (Apple or Google). Usually, refunds can be requested within a certain timeframe. Check your app store’s refund policy or contact their support."
-          },
-          {
-            "q": "What payment methods do you accept?",
-            "a": "We accept all payment methods supported by your app store, including credit cards, debit cards, PayPal, and app store gift cards."
-          }
-        ]
-      }
-    ],
-    "channel": [
-      {
-        "icon": "message",
-        "title": "Live Chat",
-        "description": "Chat directly with our support team.",
-        "action": "Start Chat",
-        "available": "Available 24/7"
-      },
-      {
-        "icon": "mail",
-        "title": "Email Support",
-        "description": "support@gplay.com",
-        "action": "Send Email",
-        "available": "Response within 24 hours"
-      },
-      {
-        "icon": "book",
-        "title": "Knowledge Base",
-        "description": "Browse help articles and FAQs.",
-        "action": "Visit Help Center",
-        "available": "Always available"
-      }
-    ],
-    "submit-request": {
-      "title": "Submit a Request",
-      "description": "Can’t find what you’re looking for? Send us a message and we’ll get back to you soon."
+    "title": "Contact Support",
+    "description": "Get answers to your questions and solutions to your issues.",
+    "phone": {
+      "icon": "phone",
+      "title": "Call Us Directly",
+      "description": "Reach out to us through our support hotline.",
+      "action": "Call Now",
+      "available": "0123 456 789"
+    },
+    "facebook": {
+      "icon": "facebook",
+      "title": "Official Facebook Page",
+      "description": "Connect and message us via GPLAY Studio Fanpage.",
+      "action": "Visit Fanpage",
+      "available": "Quick response during working hours"
+    },
+    "mail": {
+      "icon": "mail",
+      "title": "Gmail Support",
+      "description": "We respond to all inquiries within 24 hours.",
+      "action": "Send Email",
+      "available": "Response within 24 hours"
     }
   }
 }

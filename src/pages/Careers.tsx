@@ -1,21 +1,16 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Briefcase, Coffee, Heart, Rocket, Trophy, Users } from "lucide-react";
-import { useTranslation } from "react-i18next";
-import { Icon } from "@/lib/utils.ts";
-
-interface Job {
-    name: string;
-    description: string;
-    link: string;
-    tag: Array<{
-        name: string;
-        icon: string;
-    }>;
-}
+import {Card, CardContent} from "@/components/ui/card";
+import {Button} from "@/components/ui/button";
+import {Badge} from "@/components/ui/badge";
+import {useTranslation} from "react-i18next";
+import {Icon} from "@/lib/utils.ts";
+import jobs from "@/assets/data/jobs.json";
+import info from "@/assets/data/info.json";
+import {Job} from "@/common/types.ts";
+import {JobTypeMap} from "@/constants/jobType.ts";
+import LocalizeText from "@/components/LocalizeText.tsx";
+import benefits from "@/assets/data/benefits.json";
 
 interface Benefit {
     name: string;
@@ -26,14 +21,14 @@ interface Benefit {
 const Careers = () => {
     const { t } = useTranslation();
 
-    const jobOpenings = t("career-page.job.list", { returnObjects: true }) as Job[];
-    const benefits = t("career-page.benefit.list", { returnObjects: true }) as Benefit[];
+    const jobOpenings = jobs as Job[];
+    const benefitList = benefits as Benefit[];
 
     return (
         <div className="min-h-screen bg-[#0a0a0a] text-gray-100">
             <Navigation />
 
-            <main className="pt-24 pb-16">
+            <main className="pt-36 pb-20">
                 {/* --- Header Section --- */}
                 <section className="container px-4 sm:px-6 lg:px-8 mb-16">
                     <div className="text-center space-y-6 animate-fade-up max-w-4xl mx-auto">
@@ -53,7 +48,7 @@ const Careers = () => {
                             {t("career-page.benefit.title")}
                         </h2>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {benefits.map((benefit, index) => (
+                            {benefitList.map((benefit, index) => (
                                 <Card
                                     key={index}
                                     className="border border-gray-800 bg-[#121212] hover:border-yellow-400/60 hover:shadow-[0_0_30px_rgba(255,204,0,0.25)] transition-all animate-scale-in"
@@ -103,18 +98,18 @@ const Careers = () => {
                                                     <h3 className="text-2xl font-bold text-white mb-2">
                                                         {job.name}
                                                     </h3>
-                                                    <p className="text-gray-400">{job.description}</p>
+                                                    <LocalizeText data={job} className="text-gray-400"/>
                                                 </div>
 
                                                 <div className="flex flex-wrap gap-3 text-sm">
-                                                    {job.tag.map((tag, i) => (
+                                                    {job.types.map((tag, i) => (
                                                         <Badge
                                                             key={i}
                                                             variant="outline"
                                                             className="gap-1 border border-gray-700 text-gray-300"
                                                         >
-                                                            {Icon(tag.icon, "h-3 w-3")}
-                                                            {tag.name}
+                                                            {Icon(JobTypeMap.get(tag).icon, "h-3 w-3")}
+                                                            {JobTypeMap.get(tag).toString()}
                                                         </Badge>
                                                     ))}
                                                 </div>
@@ -124,7 +119,9 @@ const Careers = () => {
                                                 size="lg"
                                                 className="lg:w-auto w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold transition-colors"
                                             >
-                                                {t("button.apply-now")}
+                                                <a href={`mailto:${info.mailHr}`} target="_blank">
+                                                    {t("button.apply-now")}
+                                                </a>
                                             </Button>
                                         </div>
                                     </CardContent>
@@ -144,12 +141,16 @@ const Careers = () => {
                             {t("career-page.job.general-application.description")}
                         </p>
                         <Button
+                            asChild
                             size="lg"
                             variant="outline"
-                            className="text-lg px-8 border border-yellow-400  bg-yellow-400 text-black transition-colors"
+                            className="text-lg px-8 border border-yellow-400 bg-yellow-400 text-black transition-colors"
                         >
-                            {t("career-page.job.general-application.text-button")}
+                            <a href={`mailto:${info.mailHr}`} target="_blank">
+                                {t("career-page.job.general-application.text-button")}
+                            </a>
                         </Button>
+
                     </div>
                 </section>
             </main>

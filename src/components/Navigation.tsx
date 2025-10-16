@@ -7,7 +7,7 @@ const Navigation = () => {
 
     const [isOpen, setIsOpen] = useState(false);
     const [langOpen, setLangOpen] = useState(false);
-    const [language, setLanguage] = useState(localStorage.getItem("lang") || "vi");
+    const [language, setLanguage] = useState(localStorage.getItem("lang") || "vn");
 
     const navItems = [
         {label: t("navbar.home"), href: "/"},
@@ -18,9 +18,8 @@ const Navigation = () => {
     ];
 
     const languages = [
-        {code: "vi", name: "VI", label: "Tiếng Việt"},
+        {code: "vn", name: "VN", label: "Tiếng Việt"},
         {code: "en", name: "EN", label: "English"},
-        {code: "jp", name: "JP", label: "日本語"},
     ];
 
     const handleLangChange = (code: string) => {

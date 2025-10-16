@@ -1,10 +1,10 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Target } from "lucide-react";
-import { useTranslation } from "react-i18next";
-import { Icon } from "@/lib/utils.ts";
+import {Card, CardContent} from "@/components/ui/card";
+import {Badge} from "@/components/ui/badge";
+import {Target} from "lucide-react";
+import {useTranslation} from "react-i18next";
+import {Icon} from "@/lib/utils.ts";
 
 interface Stat {
     name: string;

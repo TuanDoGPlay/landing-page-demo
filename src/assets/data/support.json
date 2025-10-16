@@ -1,0 +1,23 @@
+[
+  {
+    "icon": "phone",
+    "title": "Gọi điện trực tiếp",
+    "description": "Liên hệ với chúng tôi qua số điện thoại hỗ trợ",
+    "action": "Gọi ngay",
+    "available": "Hotline: 0123 456 789"
+  },
+  {
+    "icon": "facebook",
+    "title": "Trang Facebook chính thức",
+    "description": "Kết nối và nhắn tin với đội ngũ qua Fanpage GPLAY Studio",
+    "action": "Truy cập Fanpage",
+    "available": "Phản hồi nhanh trong giờ làm việc"
+  },
+  {
+    "icon": "mail",
+    "title": "Hỗ trợ qua Gmail",
+    "description": "support@gplaystudio.com",
+    "action": "Gửi email",
+    "available": "Phản hồi trong vòng 24 giờ"
+  }
+]

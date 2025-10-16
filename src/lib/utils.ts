@@ -1,15 +1,23 @@
 import {type ClassValue, clsx} from "clsx";
 import {twMerge} from "tailwind-merge";
 import {
+    BookOpen,
     Briefcase,
+    Building,
     Clock,
     Coffee,
     Facebook,
+    Gamepad2,
     Globe,
     Heart,
+    Hourglass,
+    House,
     Instagram,
     Linkedin,
+    Mail,
     MapPin,
+    MessageCircle,
+    Phone,
     Rocket,
     Star,
     Target,
@@ -17,12 +25,9 @@ import {
     Twitter,
     Users,
     Youtube,
-    Zap,
-    MessageCircle,
-    Mail,
-    BookOpen,
-    Gamepad2
+    Zap
 } from "lucide-react";
+import {IconBrandAppstore, IconBrandGooglePlay, IconBrandTiktok} from "@tabler/icons-react";
 import * as React from "react";
 
 const iconMap = {
@@ -47,6 +52,13 @@ const iconMap = {
     message: MessageCircle,
     book: BookOpen,
     gamepad: Gamepad2,
+    tiktok: IconBrandTiktok,
+    appstore: IconBrandAppstore,
+    googleplay: IconBrandGooglePlay,
+    house: House,
+    building: Building,
+    hourglass: Hourglass,
+    phone: Phone,
 };
 
 export function cn(...inputs: ClassValue[]) {
@@ -57,3 +69,7 @@ export const Icon = (name: string, className?: string) => {
     const IconComponent = iconMap[name];
     return IconComponent ? React.createElement(IconComponent, {className: className ?? ""}) : null;
 };
+
+export function currentLanguage(): string {
+    return localStorage.getItem("lang") || "vn";
+}

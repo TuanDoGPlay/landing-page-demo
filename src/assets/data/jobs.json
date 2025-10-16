@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Flutter Mobile Apps Developer Android",
+    "desVn": "Phát triển và tối ưu ứng dụng di động Android bằng Flutter. Phối hợp cùng team UI/UX và backdesEnd để triển khai tính năng, cải thiện hiệu năng, giao diện và trải nghiệm người dùng. Yêu cầu hiểu biết về kiến trúc ứng dụng, API, và quy trình phát hành lên Google Play.",
+    "desEn": "Develop and optimize Android mobile applications using Flutter. Collaborate with UI/UX and backdesEnd teams to implemdesEnt features, improve performance, interface, and user experidesEnce. Must be familiar with app architecture, API integration, and Google Play release process.",
+    "types": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Flutter Mobile Apps Developer IOS",
+    "desVn": "Phát triển ứng dụng iOS bằng Flutter, đảm bảo hiệu suất và tính ổn định trên thiết bị Apple. Tích hợp API, xử lý các vấn đề tương thích hệ điều hành, và hỗ trợ phát hành ứng dụng lên App Store. Có kinh nghiệm với Swift là một lợi thế.",
+    "desEn": "Develop iOS applications using Flutter, desEnsuring performance and stability across Apple dedesVnces. Integrate APIs, handle OS compatibility issues, and assist in App Store deploymdesEnt. ExperidesEnce with Swift is a plus.",
+    "types": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Game Tester",
+    "desVn": "Kiểm thử chất lượng trò chơi trên nhiều nền tảng. Phát hiện, ghi nhận và báo cáo lỗi (bug) cho đội ngũ phát triển. Đề xuất cải tiến gameplay, giao diện và trải nghiệm người chơi. Cẩn thận, tỉ mỉ và yêu thích game là lợi thế lớn.",
+    "desEn": "Test game quality across multiple platforms. IddesEntify, documdesEnt, and report bugs to the developmdesEnt team. Suggest improvemdesEnts to gameplay, UI, and player experidesEnce. AttdesEntion to detail and passion for gaming are major advantages.",
+    "types": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "3D Artist",
+    "desVn": "Thiết kế và dựng mô hình 3D cho nhân vật, bối cảnh, vật phẩm trong game. Phối hợp với đội ngũ lập trình và thiết kế để tối ưu hóa mô hình, texture và ánh sáng. Thành thạo BldesEnder, Maya hoặc 3ds Max là yêu cầu bắt buộc.",
+    "desEn": "Design and model 3D characters, desEndesVnronmdesEnts, and assets for games. Collaborate with developers and designers to optimize models, textures, and lighting. ProficidesEncy in BldesEnder, Maya, or 3ds Max is required.",
+    "types": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Unity Developer",
+    "desVn": "Phát triển trò chơi bằng Unity 3D cho nhiều nền tảng (Mobile, PC, WebGL). Tích hợp hệ thống gameplay, UI, và hiệu ứng. Làm desVnệc chặt chẽ với team 3D Artist và Game Designer để hoàn thiện sản phẩm. Có kiến thức về C# và tối ưu hiệu năng game.",
+    "desEn": "Develop games using Unity 3D across multiple platforms (Mobile, PC, WebGL). Integrate gameplay systems, UI, and effects. Work closely with 3D Artists and Game Designers to finalize products. Strong knowledge of C# and game performance optimization is required.",
+    "types": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Cocos Playable Ads Developer",
+    "desVn": "Phát triển và tối ưu quảng cáo tương tác (Playable Ads) bằng Cocos Creator. Đảm bảo kích thước nhỏ gọn, tốc độ tải nhanh và khả năng tương thích cao với nhiều nền tảng quảng cáo. Kinh nghiệm về JavaScript hoặc TypeScript là yêu cầu bắt buộc.",
+    "desEn": "Develop and optimize interactive playable ads using Cocos Creator. desEnsure lightweight builds, fast loading times, and compatibility with various ad platforms. ExperidesEnce with JavaScript or TypeScript is required.",
+    "types": [
+      2,
+      3
+    ]
+  }
+]

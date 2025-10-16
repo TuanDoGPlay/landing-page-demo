@@ -1,7 +1,8 @@
 import {Button} from "@/components/ui/button";
-import {Play} from "lucide-react";
+import {ArrowRight} from "lucide-react";
 import heroImage from "@/assets/hero-characters.jpg";
 import {useTranslation} from "react-i18next";
+import info from "@/assets/data/info.json"
 
 interface Stat {
     name: string,
@@ -11,7 +12,25 @@ interface Stat {
 const Hero = () => {
     const {t} = useTranslation();
 
-    const stats = t("home-page.stat", {returnObjects: true}) as Stat[];
+    const stats: Stat[] = [
+        {
+            name: "label.game",
+            count: info.homeStats.gameCount,
+        },
+        {
+            name: "label.player",
+            count: info.homeStats.playerCount,
+        },
+        {
+            name: "label.country",
+            count: info.homeStats.countryCount,
+        },
+        {
+            name: "label.year",
+            count: info.homeStats.yearCount,
+        },
+
+    ]
 
   return (
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
@@ -41,15 +60,16 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
               <Button
                   size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-[0_0_30px_rgba(59,130,246,0.5)] hover:shadow-[0_0_50px_rgba(59,130,246,0.7)] transition-all text-lg px-8 py-6 rounded-full"
+                  className="bg-primary hover:bg-primary/90 text-black shadow-[0_0_30px_rgba(59,130,246,0.5)]  transition-all text-lg px-8 py-6 rounded-full"
             >
-                  <Play className="mr-2 h-5 w-5" onClick={() => window.open(t("home-page.button.watch-video.link"))}/>
-                  {t("home-page.button.watch-video.name")}
+                  <ArrowRight className="mr-2 h-5 w-5"
+                              onClick={() => window.open(t("home-page.button.introduce.link"))}/>
+                  {t("home-page.button.introduce.name")}
             </Button>
             <Button 
               size="lg" 
               variant="outline"
-              className="border-2 border-foreground/20 hover:border-primary hover:bg-white hover:text-primary text-lg px-8 py-6 rounded-full transition-all duration-300"
+              className="border-2 border-primary bg-transparent hover:border-primary hover:bg-primary text-primary text-lg px-8 py-6 rounded-full transition-all duration-300"
               onClick={() => window.open(t("home-page.button.explore.link"))}
             >
                 {t("home-page.button.explore.name")}
@@ -68,7 +88,7 @@ const Hero = () => {
                   {stat.count}
               </div>
               <div className="text-sm text-white font-medium">
-                  {stat.name}
+                  {t(stat.name)}
               </div>
             </div>
           ))}

@@ -1,0 +1,192 @@
+{
+  "label": {
+    "game": "Trò chơi",
+    "career": "Tuyển dụng",
+    "support": "Hỗ trợ",
+    "about": "Về chúng tôi",
+    "company": "Công ty",
+    "name": "Tên",
+    "player": "Người chơi",
+    "country": "Quốc gia",
+    "year": "Năm",
+    "download": "lượt tải",
+    "contact": "Liên hệ"
+  },
+  "button": {
+    "play-now": "Chơi ngay",
+    "apply-now": "Ứng tuyển ngay",
+    "play-on-android": "Chơi trên Android",
+    "play-on-ios": "Chơi trên IOS"
+  },
+  "navbar": {
+    "home": "Trang chủ",
+    "company-name": "GPLAY",
+    "game": "Trò chơi",
+    "career": "Tuyển dụng",
+    "support": "Hỗ trợ",
+    "about": "Về chúng tôi"
+  },
+  "footer": {
+    "title": "GLOBAL PLAY STUDIO",
+    "description": "Xây dựng những trò chơi kết nối con người và mang đến trải nghiệm khó quên.",
+    "social-network": [
+      {
+        "name": "Facebook",
+        "link": "#"
+      },
+      {
+        "name": "Tiktok",
+        "link": "#"
+      }
+    ],
+    "copyright": "© 2025 GPlay Studio."
+  },
+  "home-page": {
+    "title": "GLOBAL PLAY STUDIO",
+    "slogan": "Be Different With GPLAY",
+    "background": "/game-image/hero-characters.jpg",
+    "button": {
+      "watch-video": {
+        "name": "Giới thiệu",
+        "link": "/about"
+      },
+      "explore": {
+        "name": "Khám phá trò chơi",
+        "link": "/games"
+      }
+    },
+    "game": {
+      "title": "Trò chơi của chúng tôi",
+      "description": "Trải nghiệm những thế giới được hàng triệu người gọi là ngôi nhà"
+    }
+  },
+  "game-page": {
+    "title": "Trò chơi của chúng tôi",
+    "description": "Khám phá bộ sưu tập những trò chơi huyền thoại được hàng triệu người yêu thích trên toàn thế giới.",
+    "view-on-store": {
+      "title": "Tham gia cùng hàng triệu người chơi",
+      "description": "Tải game của chúng tôi và trở thành một phần trong cộng đồng GPlay toàn cầu.",
+      "android": {
+        "title": "Tải trên Android"
+      },
+      "ios": {
+        "title": "Tải trên iOS"
+      }
+    }
+  },
+  "career-page": {
+    "title": "Gia nhập cùng chúng tôi",
+    "description": "Cùng nhau tạo nên những tựa game tuyệt vời với những con người đam mê và sáng tạo.",
+    "benefit": {
+      "title": "Tại sao chọn GPlay?"
+    },
+    "job": {
+      "title": "Vị trí đang tuyển",
+      "count": "vị trí đang mở",
+      "general-application": {
+        "title": "Không thấy vị trí phù hợp?",
+        "description": "Chúng tôi luôn tìm kiếm những nhân tài mới. Gửi cho chúng tôi hồ sơ của bạn và cùng trao đổi về các cơ hội trong tương lai.",
+        "text-button": "Gửi hồ sơ"
+      }
+    }
+  },
+  "about-page": {
+    "title": "Về GPlay Studio",
+    "description": "Chúng tôi là một đội ngũ đam mê gồm các nhà phát triển, nghệ sĩ và người mơ mộng — cùng chung mục tiêu tạo nên những trải nghiệm game huyền thoại, kết nối người chơi trên khắp thế giới.",
+    "mission": {
+      "title": "Sứ mệnh của chúng tôi",
+      "description": "Tạo ra những trò chơi vượt qua ranh giới, văn hóa và ngôn ngữ — mang đến niềm vui, sự phấn khích và kết nối cho hàng triệu người chơi trên toàn cầu."
+    },
+    "vision": {
+      "title": "Tầm nhìn của chúng tôi",
+      "description": "Trở thành công ty game được yêu thích nhất thế giới, được biết đến với những trải nghiệm khó quên và truyền cảm hứng cho thế hệ game thủ tiếp theo."
+    },
+    "value": {
+      "title": "Giá trị cốt lõi",
+      "list": [
+        {
+          "name": "Người chơi là trung tâm",
+          "description": "Mọi quyết định của chúng tôi đều bắt đầu từ người chơi. Trải nghiệm, niềm vui và phản hồi của họ là động lực cho mọi hành động.",
+          "icon": "heart"
+        },
+        {
+          "name": "Đổi mới",
+          "description": "Chúng tôi không ngừng thử nghiệm và sáng tạo để mang đến trải nghiệm trò chơi độc đáo.",
+          "icon": "zap"
+        },
+        {
+          "name": "Hợp tác",
+          "description": "Những trò chơi vĩ đại được tạo nên bởi những đội ngũ tuyệt vời. Chúng tôi đề cao giao tiếp cởi mở và tinh thần làm việc nhóm.",
+          "icon": "users"
+        },
+        {
+          "name": "Chất lượng",
+          "description": "Chúng tôi đặt ra tiêu chuẩn cao và luôn hướng đến sự hoàn thiện trong mọi khía cạnh của trò chơi và văn hóa công ty.",
+          "icon": "trophy"
+        }
+      ]
+    },
+    "milestone": [
+      {
+        "year": "2015",
+        "title": "Thành lập GPlay",
+        "description": "Bắt đầu với một nhóm nhỏ các nhà phát triển game đam mê tại TP. Hồ Chí Minh"
+      },
+      {
+        "year": "2016",
+        "title": "Ra mắt trò chơi đầu tiên",
+        "description": "Phát hành trò chơi di động đầu tiên, đạt 1 triệu lượt tải chỉ trong tháng đầu tiên"
+      },
+      {
+        "year": "2018",
+        "title": "Mở rộng toàn cầu",
+        "description": "Mở rộng thị trường quốc tế với các trò chơi có mặt tại hơn 50 quốc gia"
+      },
+      {
+        "year": "2020",
+        "title": "100 triệu người chơi",
+        "description": "Đạt cột mốc 100 triệu người chơi trên tất cả các trò chơi của GPlay"
+      },
+      {
+        "year": "2022",
+        "title": "Giành giải thưởng quốc tế",
+        "description": "Nhận nhiều giải thưởng trong ngành về thiết kế và đổi mới game"
+      },
+      {
+        "year": "2024",
+        "title": "500 triệu người chơi",
+        "description": "Phục vụ hơn 500 triệu người chơi trên toàn thế giới với hơn 7 tựa game đình đám"
+      }
+    ],
+    "join": {
+      "title": "Gia nhập hành trình cùng chúng tôi",
+      "description": "Chúng tôi luôn tìm kiếm những con người tài năng và đam mê để cùng tạo nên thế hệ game huyền thoại tiếp theo.",
+      "button-text": "Xem vị trí tuyển dụng"
+    }
+  },
+  "support-page": {
+    "title": "Liên hệ hỗ trợ",
+    "description": "Nhận câu trả lời cho thắc mắc và giải pháp cho vấn đề của bạn",
+    "phone": {
+      "icon": "phone",
+      "title": "Gọi điện trực tiếp",
+      "description": "Liên hệ với chúng tôi qua số điện thoại hỗ trợ",
+      "action": "Gọi ngay",
+      "available": "0123 456 789"
+    },
+    "facebook": {
+      "icon": "facebook",
+      "title": "Trang Facebook chính thức",
+      "description": "Kết nối và nhắn tin qua Fanpage GPLAY Studio",
+      "action": "Truy cập Fanpage",
+      "available": "Phản hồi nhanh trong giờ làm việc"
+    },
+    "mail": {
+      "icon": "mail",
+      "title": "Hỗ trợ qua Gmail",
+      "description": "Phản hồi trong vòng 24 giờ",
+      "action": "Gửi email",
+      "available": "Phản hồi trong vòng 24 giờ"
+    }
+  }
+}
