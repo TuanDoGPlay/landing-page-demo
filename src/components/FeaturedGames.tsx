@@ -33,6 +33,7 @@ const FeaturedGames = () => {
                             key={index}
                             className="group overflow-hidden border border-gray-800 bg-[#121212] hover:border-yellow-400/60 transition-all duration-500 hover:shadow-[0_0_30px_rgba(255,204,0,0.25)] animate-scale-in cursor-pointer"
                             style={{animationDelay: `${index * 150}ms`}}
+                            onClick={() => window.open(game.playstore, "_blank")}
                         >
                             <CardContent className="p-0">
                                 {/* --- Game image --- */}

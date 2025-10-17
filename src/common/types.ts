@@ -31,4 +31,5 @@ export interface Job {
     desVn: string
     desEn: string
     types: JobTypeEnum[]
+    jd: string
 }

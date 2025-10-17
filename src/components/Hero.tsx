@@ -61,16 +61,16 @@ const Hero = () => {
               <Button
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-black shadow-[0_0_30px_rgba(59,130,246,0.5)]  transition-all text-lg px-8 py-6 rounded-full"
+                  onClick={() => window.open(t("home-page.button.introduce.link"), "_self")}
             >
-                  <ArrowRight className="mr-2 h-5 w-5"
-                              onClick={() => window.open(t("home-page.button.introduce.link"))}/>
+                  <ArrowRight className="mr-2 h-5 w-5"/>
                   {t("home-page.button.introduce.name")}
             </Button>
             <Button 
               size="lg" 
               variant="outline"
               className="border-2 border-primary bg-transparent hover:border-primary hover:bg-primary text-primary text-lg px-8 py-6 rounded-full transition-all duration-300"
-              onClick={() => window.open(t("home-page.button.explore.link"))}
+              onClick={() => window.open(t("home-page.button.explore.link"), "_self")}
             >
                 {t("home-page.button.explore.name")}
             </Button>

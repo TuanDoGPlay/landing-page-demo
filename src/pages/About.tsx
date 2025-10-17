@@ -35,22 +35,22 @@ const About = () => {
     const stats: Stat[] = [
         {
             icon: "gamepad",
-            name: "label.game",
+            name: t("label.game"),
             count: info.homeStats.gameCount,
         },
         {
             icon: "users",
-            name: "label.player",
+            name: t("label.player"),
             count: info.homeStats.playerCount,
         },
         {
             icon: "globe",
-            name: "label.country",
+            name: t("label.country"),
             count: info.homeStats.countryCount,
         },
         {
             icon: "rocket",
-            name: "label.year",
+            name: t("label.year"),
             count: info.homeStats.yearCount,
         },
     ]

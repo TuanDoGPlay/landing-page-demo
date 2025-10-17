@@ -93,7 +93,8 @@ const Careers = () => {
                                     style={{ animationDelay: `${index * 80}ms` }}
                                 >
                                     <CardContent className="p-6">
-                                        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+                                        <div
+                                            className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
                                             <div className="space-y-3 flex-1">
                                                 <div>
                                                     <h3 className="text-2xl font-bold text-white mb-2">
@@ -116,6 +117,13 @@ const Careers = () => {
                                                 </div>
                                             </div>
 
+                                            <Button
+                                                size="lg"
+                                                onClick={() => window.open(`/jd/${job.jd}`, "_blank")}
+                                                className="lg:w-auto w-full bg-transparent border border-primary text-primary hover:bg-primary hover:text-foreground font-semibold transition-colors"
+                                            >
+                                                {t("button.view-jd")}
+                                            </Button>
                                             <Button
                                                 size="lg"
                                                 className="lg:w-auto w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold transition-colors"

@@ -16,7 +16,8 @@
     "play-now": "Chơi ngay",
     "apply-now": "Ứng tuyển ngay",
     "play-on-android": "Chơi trên Android",
-    "play-on-ios": "Chơi trên IOS"
+    "play-on-ios": "Chơi trên IOS",
+    "view-jd": "Xem JD"
   },
   "navbar": {
     "home": "Trang chủ",
@@ -46,7 +47,7 @@
     "slogan": "Be Different With GPLAY",
     "background": "/game-image/hero-characters.jpg",
     "button": {
-      "watch-video": {
+      "introduce": {
         "name": "Giới thiệu",
         "link": "/about"
       },
@@ -58,6 +59,10 @@
     "game": {
       "title": "Trò chơi của chúng tôi",
       "description": "Trải nghiệm những thế giới được hàng triệu người gọi là ngôi nhà"
+    },
+    "gallery": {
+      "title": "Môi trường làm việc",
+      "description": "Không gian làm việc năng động, nơi ý tưởng được khơi dậy và cùng nhau biến thành hiện thực"
     }
   },
   "game-page": {

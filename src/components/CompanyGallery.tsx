@@ -17,7 +17,15 @@ const CompanyGallery = () => {
         <section id="gallery" className="bg-[#0a0a0a] text-gray-100 pb-40">
             <div className="container px-4 sm:px-6 lg:px-8">
                 <div className="max-w-8xl mx-auto">
-
+                    {/* --- Title --- */}
+                    <div className="text-center mb-16 space-y-4">
+                        <h2 className="text-5xl sm:text-6xl font-black tracking-tight text-white">
+                            {t("home-page.gallery.title")}
+                        </h2>
+                        <p className="text-xl text-gray-400 max-w-4xl mx-auto">
+                            {t("home-page.gallery.description")}
+                        </p>
+                    </div>
 
                     {/* --- Carousel --- */}
                     <Carousel
