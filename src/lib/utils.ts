@@ -6,6 +6,7 @@ import {
     Building,
     Clock,
     Coffee,
+    Download,
     Facebook,
     Gamepad2,
     Globe,
@@ -18,6 +19,7 @@ import {
     MapPin,
     MessageCircle,
     Phone,
+    PuzzleIcon,
     Rocket,
     Star,
     Target,
@@ -59,6 +61,8 @@ const iconMap = {
     building: Building,
     hourglass: Hourglass,
     phone: Phone,
+    download: Download,
+    puzzle: PuzzleIcon,
 };
 
 export function cn(...inputs: ClassValue[]) {

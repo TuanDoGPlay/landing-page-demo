@@ -26,10 +26,20 @@ export interface Game {
     rating: number
 }
 
+interface ILocalize {
+    vn: string[],
+    en: string[]
+}
+
 export interface Job {
     name: string
     desVn: string
     desEn: string
     types: JobTypeEnum[]
-    jd: string
+    jd: {
+        description: ILocalize,
+        requirement: ILocalize,
+        benefit: ILocalize,
+        contact: ILocalize,
+    }
 }

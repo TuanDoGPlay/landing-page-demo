@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -37,6 +38,3 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}

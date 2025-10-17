@@ -92,3 +92,28 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* ==== GLOBAL (Chrome/Edge/Safari) ==== */
+*::-webkit-scrollbar {
+    width: 10px; /* chiều rộng thanh cuộn dọc */
+    height: 10px; /* chiều cao thanh cuộn ngang */
+}
+
+*::-webkit-scrollbar-track {
+    background: #0a0a0a; /* nền track */
+}
+
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #facc15, #eab308); /* vàng GPLAY */
+    border-radius: 999px;
+    border: 2px solid #0a0a0a; /* tạo khoảng cách giữa thumb & track */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #fde047, #facc15);
+}
+
+*::-webkit-scrollbar-corner {
+    background: transparent;
+}
+

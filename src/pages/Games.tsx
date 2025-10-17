@@ -11,7 +11,6 @@ import {Game} from "@/common/types.ts";
 import info from "@/assets/data/info.json";
 import {IconBrandAppstore, IconBrandGooglePlay} from "@tabler/icons-react";
 import {GameTypeMap} from "@/constants/gameType.ts";
-import LocalizeText from "@/components/LocalizeText.tsx";
 
 const Games = () => {
     const { t } = useTranslation();
@@ -65,11 +64,11 @@ const Games = () => {
                                     {/* Content */}
                                     <div className="p-6 space-y-4">
                                         <div>
-                                            <h3 className="text-2xl font-bold text-white group-hover:text-yellow-400 transition-colors mb-2">
+                                            <h3 className="text-2xl font-bold text-white group-hover:text-yellow-400 transition-colors mb-2 overflow-hidden text-ellipsis whitespace-nowrap">
                                                 {game.name}
                                             </h3>
-                                            <LocalizeText data={game}
-                                                          className="text-gray-400 text-sm line-clamp-2"/>
+                                            {/*<LocalizeText vn={game.desVn} en={game.desEn}*/}
+                                            {/*              className="text-gray-400 text-sm line-clamp-2"/>*/}
                                         </div>
 
                                         <div className="flex items-center gap-4 text-sm text-gray-400">

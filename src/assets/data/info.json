@@ -1,10 +1,10 @@
 {
   "homeStats": {
     "gameCount": "200+",
-    "playerCount": "1000+",
     "countryCount": "100+",
     "yearCount": "3+",
-    "rating": "4.8"
+    "rating": "4.8",
+    "totalDownloads": "500M+"
   },
   "gameStore": {
     "android": "https://play.google.com/store/apps/dev?id=5898471006814482851",

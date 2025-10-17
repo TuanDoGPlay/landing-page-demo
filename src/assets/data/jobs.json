@@ -7,7 +7,104 @@
       2,
       3
     ],
-    "jd": "jd-flutter.pdf"
+    "jd": {
+      "description": {
+        "vn": [
+          "Phát triển ứng dụng di động sử dụng Flutter theo sự phân công của Team Leader.",
+          "Tham gia phân tích, thiết kế kiến trúc, luồng nghiệp vụ của ứng dụng di động.",
+          "Phát triển các ứng dụng một cách linh hoạt, có cấu trúc tốt, mã nguồn và thư viện có thể tái sử dụng trong tương lai.",
+          "Tối ưu hoá hiệu suất và đảm bảo ứng dụng tương thích trên cả Android và iOS."
+        ],
+        "en": [
+          "Develop mobile applications using Flutter as assigned by the Team Leader.",
+          "Participate in analyzing, designing application architecture, and business workflows.",
+          "Build scalable, well-structured apps with reusable code and libraries for future development.",
+          "Optimize performance and ensure compatibility across Android and iOS devices."
+        ]
+      },
+      "requirement": {
+        "vn": [
+          "Ưu tiên ứng viên đã từng có sản phẩm lên store.",
+          "Ưu tiên ứng viên có kinh nghiệm về native (Swift hoặc Kotlin/Java).",
+          "Có từ 6 tháng kinh nghiệm phát triển ứng dụng bằng Flutter.",
+          "Thành thạo ít nhất một trong các state management (Provider, Bloc, GetX,...).",
+          "Hiểu biết tốt về các UI components, animation, và thiết kế giao diện cho nhiều loại thiết bị khác nhau.",
+          "Có tư duy logic tốt, khả năng phân tích và giải quyết vấn đề.",
+          "Hiểu biết về Design Pattern, SOLID.",
+          "Có kiến thức tốt về Data Structures & Algorithm.",
+          "Có kinh nghiệm tối ưu performance, memory cho ứng dụng.",
+          "Có kinh nghiệm tích hợp Firebase, Admob, Subscription và In-App Purchases là lợi thế.",
+          "Có kỹ năng làm việc nhóm, độc lập, và khả năng tự học hỏi, cập nhật công nghệ mới.",
+          "Đam mê phát triển sản phẩm."
+        ],
+        "en": [
+          "Candidates with published apps on store are preferred.",
+          "Experience with native development (Swift or Kotlin/Java) is a plus.",
+          "At least 6 months of experience developing apps with Flutter.",
+          "Proficient in at least one state management approach (Provider, Bloc, GetX,...).",
+          "Strong understanding of UI components, animation, and responsive design across multiple devices.",
+          "Good logical thinking and problem-solving skills.",
+          "Familiar with Design Patterns and SOLID principles.",
+          "Good understanding of Data Structures & Algorithms.",
+          "Experience in optimizing performance and memory usage.",
+          "Experience integrating Firebase, Admob, Subscription, and In-App Purchases is an advantage.",
+          "Strong teamwork, independence, and self-learning skills.",
+          "Passionate about product development."
+        ]
+      },
+      "benefit": {
+        "vn": [
+          "Lương: thỏa thuận khi phỏng vấn.",
+          "Thưởng kinh doanh trực tiếp bằng % (Profit Share) tính theo đóng góp của ứng viên vào các dự án đã tham gia.",
+          "Thưởng các ngày lễ: 30/04, 01/05, 02/09, Tết Dương Lịch.",
+          "Quà các ngày lễ: 08/03, 20/10, Trung Thu, Tết Âm Lịch.",
+          "Review tăng lương linh hoạt không giới hạn, phụ thuộc vào tiềm năng và mức độ đóng góp của ứng viên.",
+          "BHXH, BHYT, BHTN, 12 ngày nghỉ phép/năm (chuyển sang năm sau nếu chưa dùng hết).",
+          "Du lịch, Team building tối thiểu 2 lần/năm.",
+          "Tổ chức sinh nhật hàng tháng. Happy Time 2 lần/tuần (đồ ăn, đồ uống, hoa quả và trò chơi nội bộ).",
+          "Khu pantry gồm cafe, trà, đồ uống miễn phí.",
+          "Khu giải trí gồm Bàn Bi-a, PS, Board Game...",
+          "Khu nội bộ gồm các phòng nghỉ đầy đủ tiện nghi cho nhân sự cần ở lại công ty.",
+          "Trải nghiệm các hoạt động văn hóa doanh nghiệp chỉ có tại GPLAY.",
+          "Được cung cấp đầy đủ trang thiết bị, máy móc để làm việc.",
+          "Cơ hội tham gia phát triển các dự án game chất lượng, long-term.",
+          "Được đào tạo chuyên môn, phát triển tư duy và tầm nhìn bởi đội ngũ Leader giàu kinh nghiệm.",
+          "Cơ hội thăng tiến lên các vị trí Manager, Leader.",
+          "Môi trường thân thiện, trẻ trung, hiện đại, không giới hạn."
+        ],
+        "en": [
+          "Salary: negotiable during the interview.",
+          "Direct business bonus by % (Profit Share) based on the candidate's contribution to participated projects.",
+          "Holiday bonuses: 30/04, 01/05, 02/09, and New Year’s Day.",
+          "Gifts for holidays: 08/03, 20/10, Mid-Autumn, Lunar New Year.",
+          "Flexible and unlimited salary review based on potential and contribution.",
+          "Full insurance package (Social, Health, Unemployment) and 12 annual leave days (carryover supported).",
+          "Travel and team building at least 2 times per year.",
+          "Monthly birthday parties and Happy Time twice per week (food, drinks, fruits, and fun games).",
+          "Free coffee, tea, and drinks in the pantry area.",
+          "Entertainment zone with Billiard, PlayStation, Board Games, etc.",
+          "Private rooms fully equipped for staff staying overnight.",
+          "Experience unique GPLAY corporate culture activities.",
+          "Provided with all necessary equipment and tools for work.",
+          "Opportunity to join long-term, high-quality game projects.",
+          "Professional training and mindset development by experienced leaders.",
+          "Clear promotion paths to Manager or Leader positions.",
+          "Friendly, youthful, and modern work environment without limits."
+        ]
+      },
+      "contact": {
+        "vn": [
+          "CV/Portfolio các bạn gửi về: hr.gplaystudio@gmail.com",
+          "Liên hệ: 0394503232",
+          "Địa chỉ: KĐT Pandora 53 Triều Khúc, Thanh Xuân, HN."
+        ],
+        "en": [
+          "Send your CV/Portfolio to: hr.gplaystudio@gmail.com",
+          "Phone: 0394503232",
+          "Address: Pandora Urban Area, 53 Triều Khúc, Thanh Xuân, Hanoi."
+        ]
+      }
+    }
   },
   {
     "name": "Game Tester",
@@ -17,17 +114,197 @@
       2,
       3
     ],
-    "jd": "jd-tester.pdf"
+    "jd": {
+      "description": {
+        "vn": [
+          "Đảm bảo quy trình kiểm thử theo quy chuẩn của công ty.",
+          "Làm báo cáo cho team sản xuất để kịp thời sửa lỗi trước khi phát hành.",
+          "Chơi game để tìm ra lỗi và các vấn đề trong gameplay, đồ họa, logic, nội dung.",
+          "Nghiên cứu tài liệu thiết kế game, tạo checklist, testcase.",
+          "Hiểu rõ quy luật trong game và đọc hiểu được tài liệu thiết kế game.",
+          "Nghiên cứu game của công ty và các game khác trên thị trường.",
+          "Lập kế hoạch và triển khai test trước và sau khi phát hành mỗi phiên bản của game.",
+          "Tìm hiểu yêu cầu dự án, đề xuất cải tiến khi cần thiết để nâng cao chất lượng game.",
+          "Theo dõi liên tục chất lượng dự án, tạo các báo cáo đánh giá chất lượng.",
+          "Tham gia vào việc thiết kế và tối ưu hệ thống test."
+        ],
+        "en": [
+          "Ensure testing procedures comply with company standards.",
+          "Report findings to the production team to fix issues before release.",
+          "Play games to identify bugs and issues in gameplay, graphics, logic, and content.",
+          "Study game design documents to create checklists and test cases.",
+          "Understand game mechanics and read design documentation.",
+          "Research both company games and competitors’ products on the market.",
+          "Plan and execute testing before and after each game release.",
+          "Understand project requirements and propose improvements to enhance game quality.",
+          "Continuously monitor project quality and produce evaluation reports.",
+          "Participate in designing and optimizing the testing system."
+        ]
+      },
+      "requirement": {
+        "vn": [
+          "Yêu thích làm việc trong ngành công nghiệp game, đam mê chơi và thiết kế game, am hiểu về game mobile.",
+          "Am hiểu quy trình test game.",
+          "Có kỹ năng chơi nhiều thể loại game khác nhau, kinh nghiệm chơi game trên nhiều nền tảng: PC, tablets, mobile, consoles.",
+          "Chủ động giao tiếp, tương tác và phối hợp công việc với đồng đội.",
+          "Có tinh thần trách nhiệm cao, tỉ mỉ và kiên nhẫn."
+        ],
+        "en": [
+          "Passionate about working in the gaming industry, with strong interest in playing and designing games, especially mobile games.",
+          "Good understanding of game testing processes and methodologies.",
+          "Experience playing various game genres across multiple platforms: PC, tablets, mobile, and consoles.",
+          "Proactive in communication and teamwork.",
+          "Highly responsible, detail-oriented, and patient."
+        ]
+      },
+      "benefit": {
+        "vn": [
+          "Lương: thỏa thuận khi phỏng vấn.",
+          "Thưởng kinh doanh trực tiếp bằng % (Profit Share) tính theo đóng góp của ứng viên vào các dự án đã tham gia.",
+          "Thưởng các ngày lễ: 30/04, 01/05, 02/09, Tết Dương Lịch.",
+          "Quà các ngày lễ: 08/03, 20/10, Trung Thu, Tết Âm Lịch.",
+          "Review tăng lương linh hoạt không giới hạn, phụ thuộc vào tiềm năng và mức độ đóng góp của ứng viên.",
+          "BHXH, BHYT, BHTN, 12 ngày nghỉ phép/năm (chuyển sang năm sau nếu chưa dùng hết).",
+          "Du lịch, Team building tối thiểu 2 lần/năm.",
+          "Tổ chức sinh nhật hàng tháng. Happy Time 2 lần/tuần (đồ ăn, đồ uống, hoa quả và trò chơi nội bộ).",
+          "Khu pantry gồm cafe, trà, đồ uống miễn phí.",
+          "Khu giải trí gồm Bàn Bi-a, PS, Board Game...",
+          "Khu nội bộ gồm các phòng nghỉ đầy đủ trang thiết bị cho nhân sự cần ở lại công ty.",
+          "Trải nghiệm các hoạt động văn hóa doanh nghiệp chỉ có tại GPLAY.",
+          "Được cung cấp đầy đủ trang thiết bị, máy móc để làm việc.",
+          "Cơ hội học hỏi và tham gia xây dựng các dự án game chất lượng, phát triển long-term.",
+          "Cơ hội được đào tạo chuyên môn, phát triển tư duy và tầm nhìn bởi đội ngũ Leader giàu kinh nghiệm.",
+          "Có cơ hội thăng tiến lên các vị trí Manager, Leader.",
+          "Môi trường thân thiện, trẻ trung, hiện đại, không giới hạn."
+        ],
+        "en": [
+          "Salary: negotiable during the interview.",
+          "Direct business bonus by % (Profit Share) based on the candidate’s contribution to projects.",
+          "Holiday bonuses: 30/04, 01/05, 02/09, New Year’s Day.",
+          "Gifts on holidays: 08/03, 20/10, Mid-Autumn Festival, Lunar New Year.",
+          "Unlimited flexible salary review based on potential and contribution.",
+          "Full insurance package (Social, Health, Unemployment) and 12 annual leave days (carryover supported).",
+          "Travel and team building at least twice a year.",
+          "Monthly birthday parties and Happy Time twice per week (food, drinks, fruits, and internal games).",
+          "Free coffee, tea, and drinks in the pantry.",
+          "Entertainment area with Billiards, PlayStation, Board Games, etc.",
+          "Internal rooms fully equipped for staff staying overnight.",
+          "Experience unique GPLAY corporate culture.",
+          "Fully equipped working devices and tools provided.",
+          "Opportunities to learn and contribute to high-quality, long-term game projects.",
+          "Professional training and mindset development from experienced leaders.",
+          "Promotion opportunities to Manager or Leader positions.",
+          "Friendly, youthful, modern work environment without limits."
+        ]
+      },
+      "contact": {
+        "vn": [
+          "CV/Portfolio các bạn gửi về: hr.gplaystudio@gmail.com",
+          "Liên hệ: 0394503232",
+          "Địa chỉ: KĐT Pandora 53 Triều Khúc, Thanh Xuân, HN."
+        ],
+        "en": [
+          "Send your CV/Portfolio to: hr.gplaystudio@gmail.com",
+          "Phone: 0394503232",
+          "Address: Pandora Urban Area, 53 Triều Khúc, Thanh Xuân, Hanoi."
+        ]
+      }
+    }
   },
   {
     "name": "3D Artist",
     "desVn": "Thiết kế và dựng mô hình 3D cho nhân vật, bối cảnh, vật phẩm trong game. Phối hợp với đội ngũ lập trình và thiết kế để tối ưu hóa mô hình, texture và ánh sáng. Thành thạo Blender, Maya hoặc 3ds Max là yêu cầu bắt buộc.",
-    "desEn": "Design and model 3D characters, environment, and assets for games. Collaborate with developers and designers to optimize models, textures, and lighting. Proficiency in Blender, Maya, or 3ds Max is required.",
+    "desEn": "Design and model 3D characters, environments, and assets for games. Collaborate with developers and designers to optimize models, textures, and lighting. Proficiency in Blender, Maya, or 3ds Max is required.",
     "types": [
       2,
       3
     ],
-    "jd": "jd-3d-art.pdf"
+    "jd": {
+      "description": {
+        "vn": [
+          "Modeling và Texture cho các character, environment hoặc assets trên phần mềm 3D MAX/Maya/Blender.",
+          "Phối hợp với các Game Designer và Developer triển khai game asset theo thiết kế."
+        ],
+        "en": [
+          "Model and texture characters, environments, or assets using 3D MAX, Maya, or Blender.",
+          "Collaborate with Game Designers and Developers to implement game assets according to design."
+        ]
+      },
+      "requirement": {
+        "vn": [
+          "Yêu thích làm việc trong ngành công nghiệp game mobile.",
+          "Có khả năng modeling trên phần mềm 3D MAX/Maya/Blender.",
+          "Sử dụng Photoshop để làm texture.",
+          "Có xu hướng và cảm quan tốt với các sản phẩm lowpoly.",
+          "Chủ động giao tiếp, tương tác và kết hợp công việc với đồng đội.",
+          "Có tinh thần trách nhiệm cao."
+        ],
+        "en": [
+          "Passionate about working in the mobile game industry.",
+          "Proficient in modeling using 3D MAX, Maya, or Blender.",
+          "Able to use Photoshop for texturing.",
+          "Strong sense of lowpoly art style and visual aesthetics.",
+          "Proactive in communication, teamwork, and collaboration.",
+          "Highly responsible and self-disciplined."
+        ]
+      },
+      "benefit": {
+        "vn": [
+          "Lương: thỏa thuận khi phỏng vấn.",
+          "Được training bài bản từ các bạn Senior và Tech Lead.",
+          "Thưởng kinh doanh trực tiếp bằng % (Profit Share) tính theo đóng góp của ứng viên vào các dự án đã tham gia.",
+          "Thưởng các ngày lễ: 30/04, 01/05, 02/09, Tết Dương Lịch.",
+          "Quà các ngày lễ: 08/03, 20/10, Trung Thu, Tết Âm Lịch.",
+          "Review tăng lương linh hoạt không giới hạn, phụ thuộc vào tiềm năng và mức độ đóng góp của ứng viên.",
+          "Các ứng viên sau thực tập có thể được ký hợp đồng chính thức với mức lương lên đến $1000.",
+          "BHXH, BHYT, BHTN, 12 ngày nghỉ phép/năm (chuyển sang năm sau nếu chưa dùng hết).",
+          "Du lịch, Team building tối thiểu 2 lần/năm.",
+          "Tổ chức sinh nhật hàng tháng. Happy Time 2 lần/tuần (đồ ăn, đồ uống, hoa quả và trò chơi nội bộ).",
+          "Khu pantry gồm cafe, trà, đồ uống miễn phí.",
+          "Khu giải trí gồm Bàn Bi-a, PS, Board Game...",
+          "Khu nội bộ gồm các phòng nghỉ đầy đủ tiện nghi cho nhân sự cần ở lại công ty.",
+          "Trải nghiệm các hoạt động văn hóa doanh nghiệp chỉ có tại GPLAY.",
+          "Được cung cấp đầy đủ trang thiết bị, máy móc để làm việc.",
+          "Cơ hội học hỏi và tham gia xây dựng các dự án game chất lượng, long-term.",
+          "Được đào tạo chuyên môn, phát triển tư duy và tầm nhìn bởi đội ngũ Leader giàu kinh nghiệm.",
+          "Cơ hội thăng tiến lên các vị trí Manager, Leader.",
+          "Môi trường thân thiện, trẻ trung, hiện đại, không giới hạn."
+        ],
+        "en": [
+          "Salary: negotiable during the interview.",
+          "Comprehensive training from Senior and Tech Lead members.",
+          "Direct business bonus by % (Profit Share) based on project contribution.",
+          "Holiday bonuses: 30/04, 01/05, 02/09, New Year's Day.",
+          "Gifts on holidays: 08/03, 20/10, Mid-Autumn, Lunar New Year.",
+          "Unlimited flexible salary review based on potential and performance.",
+          "Post-internship candidates may be offered full-time contracts with salaries up to $1000.",
+          "Full insurance package (Social, Health, Unemployment) and 12 annual leave days (carryover supported).",
+          "Travel and team building at least twice a year.",
+          "Monthly birthday celebrations and bi-weekly Happy Time (food, drinks, fruits, and internal games).",
+          "Free coffee, tea, and drinks in the pantry.",
+          "Entertainment zone with Billiards, PlayStation, Board Games, etc.",
+          "Internal area with fully equipped sleeping rooms for employees needing to stay overnight.",
+          "Experience unique GPLAY corporate culture activities.",
+          "Provided with all necessary working equipment and devices.",
+          "Opportunity to join and build high-quality, long-term game projects.",
+          "Professional training and mindset development by experienced leaders.",
+          "Opportunities for promotion to Manager or Leader positions.",
+          "Friendly, youthful, modern, and limitless work environment."
+        ]
+      },
+      "contact": {
+        "vn": [
+          "CV/Portfolio các bạn gửi về: hr.gplaystudio@gmail.com",
+          "Liên hệ: 0394503232",
+          "Địa chỉ: KĐT Pandora 53 Triều Khúc, Thanh Xuân, HN."
+        ],
+        "en": [
+          "Send your CV/Portfolio to: hr.gplaystudio@gmail.com",
+          "Phone: 0394503232",
+          "Address: Pandora Urban Area, 53 Triều Khúc, Thanh Xuân, Hanoi."
+        ]
+      }
+    }
   },
   {
     "name": "Fresher Unity Developer",
@@ -37,7 +314,94 @@
       2,
       3
     ],
-    "jd": "jd-fresher-unity.pdf"
+    "jd": {
+      "description": {
+        "vn": [
+          "Sử dụng Unity để phát triển Mobile Game, phát hành trên Google Play và App Store",
+          "Phát triển các dòng game Hybird Casual, Puzzle.",
+          "Tham gia vào quá trình phát triển game từ giai đoạn xây dựng ý tưởng",
+          "Phối hợp với các thành viên Product Ower, Artist, Game Design, Tester..để hoàn thiện dự án"
+        ],
+        "en": [
+          "Use Unity to develop Mobile Game, publish on Google Play and App Store",
+          "Develop Hybrid Casual, Puzzle games.",
+          "Participate in the development process from the idea stage",
+          "Collaborate with Product Owner, Artist, Game Design, Tester..to finalize the project"
+        ]
+      },
+      "requirement": {
+        "vn": [
+          "Đam mê làm game và chơi game",
+          "Thành thạo C#, Unity",
+          "Đam mê lập trình và có tư duy logic tốt",
+          "Có tư duy tốt về cấu trúc dữ liệu và giải thuật.",
+          "Có khả năng tìm hiểu các công nghệ mới.",
+          "Có tinh thần trách nhiệm cao trong công việc",
+          "Có khả năng làm việc độc lập và làm việc theo nhóm"
+        ],
+        "en": [
+          "Love to play games and play games",
+          "Proficient in C#, Unity",
+          "Love programming and has good logic",
+          "Good understanding of data structures and algorithms",
+          "Can learn new technologies",
+          "High responsibility in the work",
+          "Can work independently and work in a team"
+        ]
+      },
+      "benefit": {
+        "vn": [
+          "Lương: thoả thuận khi phỏng vấn",
+          "Thưởng kinh doanh trực tiếp bằng % (Profit Share) tính theo đóng góp của ứng viên vào các dự án đã tham gia.",
+          "Thưởng các ngày lễ: 30/04, 01/05, 02/09, Tết Dương Lịch.",
+          "Quà các ngày lễ: 08/03, 20/10, Trung Thu, Tết Âm Lịch.",
+          "Review tăng lương linh hoạt không giới hạn. Phụ thuộc vào tiềm năng, khả năng và mức độ đóng góp của ứng viên.",
+          "BHXH, BHYT, BHTN, 12 ngày nghỉ phép/năm. Nếu không dùng hết sẽ được chuyển sang năm tiếp theo.",
+          "Du lịch, Team building tối thiểu 2 lần/năm.",
+          "Tổ chức sinh nhật hàng tháng. Happy Time (đồ ăn,đồ uống,hoa quả và các trò chơi nội bộ) 2 lần/tuần.",
+          "Khu pantry gồm cafe, trà, đồ uống miến phí.",
+          "Khu giải trí gồm Bàn Bi-a, PS, Board Game...",
+          "Khu nội bộ gồm các phòng ngủ đẩy đủ trang thiết bị giành cho nhân sự cần ở lại công ty.",
+          "Trải nhiệm các hoạt động văn hóa doanh nghiệp chỉ có ở GPLAY.",
+          "Được cung cấp đầy đủ trang thiết bị, máy móc để làm việc.",
+          "Cơ hội học hỏi và tham gia xây dựng các dự án game chất lượng, phát triển long-term.",
+          "Cơ hội được đào tạo chuyên môn, phát triển tư duy và tầm nhìn bởi đội ngũ Leader có nhiều năm kinh nghiệm trong ngành.",
+          "Có cơ hội thăng tiến lên các vị trí Manager, Leader.",
+          "Môi trường thân thiện, trẻ trung, hiện đại, không giới hạn."
+        ],
+        "en": [
+          "Salary: to be negotiated during the interview",
+          "Direct business bonus by % (Profit Share) based on the candidate's contribution to the projects participated in.",
+          "Bonuses on holidays: 30/04, 01/05, 02/09, New Year's Day.",
+          "Gifts on holidays: 08/03, 20/10, Mid-Autumn Festival, Lunar New Year.",
+          "Flexible salary review without limits. Depending on the candidate's potential, ability, and level of contribution.",
+          "Social insurance, health insurance, unemployment insurance, 12 days of annual leave. Unused days will be carried over to the next year.",
+          "Travel, Team building at least 2 times/year.",
+          "Monthly birthday celebrations. Happy Time (food, drinks, fruits, and internal games) 2 times/week.",
+          "Pantry area including free coffee, tea, drinks.",
+          "Entertainment area including Billiard table, PS, Board Games...",
+          "Internal area with fully equipped sleeping rooms for staff who need to stay at the company.",
+          "Experience corporate culture activities unique to GPLAY.",
+          "Provided with all necessary equipment and machinery for work.",
+          "Opportunities to learn and participate in building quality game projects for long-term development.",
+          "Opportunities for professional training, mindset development, and vision by a team of Leaders with many years of industry experience.",
+          "Opportunities for promotion to Manager, Leader positions.",
+          "Friendly, youthful, modern environment without limits."
+        ]
+      },
+      "contact": {
+        "vn": [
+          "CV/Portfolio các bạn gửi về: hr.gplaystudio@gmail.com",
+          "Liên hệ: 0394503232",
+          "Địa chỉ: KĐT Pandora 53 Triều Khúc, Thanh Xuân, HN."
+        ],
+        "en": [
+          "Send your CV/Portfolio to: hr.gplaystudio@gmail.com",
+          "Phone: 0394503232",
+          "Address: KĐT Pandora 53 Triều Khúc, Thanh Xuân, HN."
+        ]
+      }
+    }
   },
   {
     "name": "Intern Unity Developer",
@@ -47,16 +411,192 @@
       2,
       3
     ],
-    "jd": "jd-intern-unity.pdf"
+    "jd": {
+      "description": {
+        "vn": [
+          "Sử dụng Unity để phát triển Mobile Game, phát hành trên Google Play và App Store.",
+          "Phát triển các dòng game Hybrid Casual, Puzzle.",
+          "Tham gia vào quá trình phát triển game từ giai đoạn xây dựng ý tưởng.",
+          "Phối hợp với các thành viên Product Owner, Artist, Game Design, Tester... để hoàn thiện dự án."
+        ],
+        "en": [
+          "Use Unity to develop mobile games published on Google Play and App Store.",
+          "Develop Hybrid Casual and Puzzle games.",
+          "Participate in the entire game development process from ideation to completion.",
+          "Collaborate with Product Owners, Artists, Game Designers, and Testers to finalize the project."
+        ]
+      },
+      "requirement": {
+        "vn": [
+          "Chỉ cần có định hướng phát triển nghề nghiệp theo Unity và C#.",
+          "Đam mê làm game và chơi game.",
+          "Đam mê lập trình và có tư duy logic tốt.",
+          "Có tư duy tốt về cấu trúc dữ liệu và giải thuật.",
+          "Có khả năng tìm hiểu các công nghệ mới.",
+          "Có tinh thần trách nhiệm cao trong công việc.",
+          "Có khả năng làm việc độc lập và làm việc theo nhóm."
+        ],
+        "en": [
+          "A clear career orientation toward Unity and C# development.",
+          "Passionate about creating and playing games.",
+          "Enthusiastic about programming with strong logical thinking.",
+          "Good understanding of data structures and algorithms.",
+          "Ability to learn and adapt to new technologies.",
+          "High sense of responsibility and commitment.",
+          "Ability to work both independently and as part of a team."
+        ]
+      },
+      "benefit": {
+        "vn": [
+          "Lương: thỏa thuận khi phỏng vấn.",
+          "Được training bài bản từ các bạn Senior và Tech Lead.",
+          "Thưởng kinh doanh trực tiếp bằng % (Profit Share) tính theo đóng góp của ứng viên vào các dự án đã tham gia.",
+          "Thưởng các ngày lễ: 30/04, 01/05, 02/09, Tết Dương Lịch.",
+          "Quà các ngày lễ: 08/03, 20/10, Trung Thu, Tết Âm Lịch.",
+          "Review tăng lương linh hoạt không giới hạn, phụ thuộc vào tiềm năng và mức độ đóng góp của ứng viên.",
+          "Các ứng viên sau thực tập có thể được ký hợp đồng chính thức với mức lương lên đến $1000.",
+          "BHXH, BHYT, BHTN, 12 ngày nghỉ phép/năm (chuyển sang năm sau nếu chưa dùng hết).",
+          "Du lịch, Team building tối thiểu 2 lần/năm.",
+          "Tổ chức sinh nhật hàng tháng. Happy Time 2 lần/tuần (đồ ăn, đồ uống, hoa quả và trò chơi nội bộ).",
+          "Khu pantry gồm cafe, trà, đồ uống miễn phí.",
+          "Khu giải trí gồm Bàn Bi-a, PS, Board Game...",
+          "Trải nghiệm các hoạt động văn hóa doanh nghiệp chỉ có tại GPLAY.",
+          "Được cung cấp đầy đủ trang thiết bị, máy móc để làm việc.",
+          "Cơ hội học hỏi và tham gia xây dựng các dự án game chất lượng, phát triển long-term.",
+          "Cơ hội được đào tạo chuyên môn, phát triển tư duy và tầm nhìn bởi đội ngũ Leader có nhiều năm kinh nghiệm trong ngành.",
+          "Có cơ hội thăng tiến lên các vị trí Manager, Leader.",
+          "Môi trường thân thiện, trẻ trung, hiện đại, không giới hạn."
+        ],
+        "en": [
+          "Salary: negotiable during the interview.",
+          "Comprehensive training provided by Senior and Tech Lead members.",
+          "Direct business bonus by % (Profit Share) based on project contribution.",
+          "Holiday bonuses: 30/04, 01/05, 02/09, New Year’s Day.",
+          "Gifts for holidays: 08/03, 20/10, Mid-Autumn Festival, Lunar New Year.",
+          "Unlimited salary review flexibility based on potential and contribution.",
+          "Post-internship candidates may be offered full-time contracts with salaries up to $1000.",
+          "Full insurance package (Social, Health, Unemployment) and 12 annual leave days (carryover supported).",
+          "Travel and team building at least twice per year.",
+          "Monthly birthday parties and Happy Time twice a week (food, drinks, fruits, and internal games).",
+          "Free coffee, tea, and drinks in the pantry area.",
+          "Entertainment zone including Billiards, PlayStation, Board Games, etc.",
+          "Experience GPLAY’s unique corporate culture.",
+          "Fully equipped working devices and tools provided.",
+          "Opportunities to learn and participate in building long-term, high-quality game projects.",
+          "Professional training and mindset development from experienced leaders.",
+          "Opportunities for promotion to Manager or Leader positions.",
+          "Friendly, youthful, and modern work environment without limits."
+        ]
+      },
+      "contact": {
+        "vn": [
+          "CV/Portfolio các bạn gửi về: hr.gplaystudio@gmail.com",
+          "Liên hệ: 0394503232",
+          "Địa chỉ: KĐT Pandora 53 Triều Khúc, Thanh Xuân, HN."
+        ],
+        "en": [
+          "Send your CV/Portfolio to: hr.gplaystudio@gmail.com",
+          "Phone: 0394503232",
+          "Address: Pandora Urban Area, 53 Triều Khúc, Thanh Xuân, Hanoi."
+        ]
+      }
+    }
   },
   {
     "name": "Cocos Playable Ads Developer",
     "desVn": "Phát triển và tối ưu quảng cáo tương tác (Playable Ads) bằng Cocos Creator. Đảm bảo kích thước nhỏ gọn, tốc độ tải nhanh và khả năng tương thích cao với nhiều nền tảng quảng cáo. Kinh nghiệm về JavaScript hoặc TypeScript là yêu cầu bắt buộc.",
-    "desEn": "Develop and optimize interactive playable ads using Cocos Creator. desEnsure lightweight builds, fast loading times, and compatibility with various ad platforms. Experience with JavaScript or TypeScript is required.",
+    "desEn": "Develop and optimize interactive playable ads using Cocos Creator. Ensure lightweight builds, fast loading times, and high compatibility with multiple ad platforms. Experience with JavaScript or TypeScript is required.",
     "types": [
       2,
       3
     ],
-    "jd": "jd-playable-ads.pdf"
+    "jd": {
+      "description": {
+        "vn": [
+          "Lập trình game trên nền tảng Cocos Creator.",
+          "Tham gia phát triển các dự án game hướng tới thị trường toàn cầu (global).",
+          "Phối hợp với các thành viên trong team để vận hành và tối ưu hoá sản phẩm."
+        ],
+        "en": [
+          "Develop games using the Cocos Creator platform.",
+          "Participate in developing game projects targeting the global market.",
+          "Collaborate with team members to operate and optimize products."
+        ]
+      },
+      "requirement": {
+        "vn": [
+          "Tốt nghiệp đại học chuyên ngành CNTT hoặc chuyên ngành liên quan.",
+          "Tối thiểu 06 tháng kinh nghiệm làm việc trong lĩnh vực liên quan.",
+          "Có kinh nghiệm làm việc với Git, hiểu và sử dụng tốt Git Flow.",
+          "Kiến thức và kinh nghiệm làm việc với Cocos Creator.",
+          "Có sản phẩm đã phát hành trên store là lợi thế lớn.",
+          "Hiểu rõ lập trình hướng đối tượng (OOP).",
+          "Đam mê, yêu thích làm game, có khả năng tư duy và sáng tạo tốt.",
+          "Có khả năng thiết kế cấu trúc mở rộng và dễ bảo trì."
+        ],
+        "en": [
+          "Bachelor’s degree in Information Technology or related field.",
+          "At least 6 months of relevant working experience.",
+          "Experience with Git and good understanding of Git Flow.",
+          "Knowledge and hands-on experience with Cocos Creator.",
+          "Published projects on store are a strong advantage.",
+          "Strong understanding of Object-Oriented Programming (OOP).",
+          "Passionate about game development with strong logical and creative thinking.",
+          "Ability to design scalable and maintainable architecture."
+        ]
+      },
+      "benefit": {
+        "vn": [
+          "Lương: thỏa thuận khi phỏng vấn.",
+          "Thưởng kinh doanh trực tiếp bằng % (Profit Share) tính theo đóng góp của ứng viên vào các dự án đã tham gia.",
+          "Thưởng các ngày lễ: 30/04, 01/05, 02/09, Tết Dương Lịch.",
+          "Quà các ngày lễ: 08/03, 20/10, Trung Thu, Tết Âm Lịch.",
+          "Review tăng lương linh hoạt không giới hạn, phụ thuộc vào tiềm năng và mức độ đóng góp của ứng viên.",
+          "BHXH, BHYT, BHTN, 12 ngày nghỉ phép/năm (chuyển sang năm sau nếu chưa dùng hết).",
+          "Du lịch, Team building tối thiểu 2 lần/năm.",
+          "Tổ chức sinh nhật hàng tháng. Happy Time 2 lần/tuần (đồ ăn, đồ uống, hoa quả và trò chơi nội bộ).",
+          "Khu pantry gồm cafe, trà, đồ uống miễn phí.",
+          "Khu giải trí gồm Bàn Bi-a, PS, Board Game...",
+          "Khu nội bộ gồm các phòng nghỉ đầy đủ trang thiết bị dành cho nhân sự cần ở lại công ty.",
+          "Trải nghiệm các hoạt động văn hóa doanh nghiệp chỉ có tại GPLAY.",
+          "Được cung cấp đầy đủ trang thiết bị, máy móc để làm việc.",
+          "Cơ hội học hỏi và tham gia xây dựng các dự án game chất lượng, phát triển long-term.",
+          "Cơ hội được đào tạo chuyên môn, phát triển tư duy và tầm nhìn bởi đội ngũ Leader có nhiều năm kinh nghiệm trong ngành.",
+          "Có cơ hội thăng tiến lên các vị trí Manager, Leader.",
+          "Môi trường thân thiện, trẻ trung, hiện đại, không giới hạn."
+        ],
+        "en": [
+          "Salary: negotiable during the interview.",
+          "Direct business bonus by % (Profit Share) based on the candidate’s contribution to projects.",
+          "Holiday bonuses: 30/04, 01/05, 02/09, New Year’s Day.",
+          "Gifts on holidays: 08/03, 20/10, Mid-Autumn, Lunar New Year.",
+          "Unlimited flexible salary review based on potential and contribution.",
+          "Full insurance package (Social, Health, Unemployment) and 12 annual leave days (carryover supported).",
+          "Travel and team building at least 2 times per year.",
+          "Monthly birthday celebrations and Happy Time twice per week (food, drinks, fruits, and fun games).",
+          "Free coffee, tea, and drinks in the pantry area.",
+          "Entertainment area with Billiards, PlayStation, Board Games...",
+          "Internal rooms fully equipped for staff staying overnight.",
+          "Experience GPLAY’s unique corporate culture.",
+          "Fully equipped working devices and modern tools provided.",
+          "Opportunities to join and build long-term, high-quality game projects.",
+          "Professional training and mindset development from experienced Leaders.",
+          "Promotion opportunities to Manager or Leader positions.",
+          "Friendly, youthful, and modern work environment without limits."
+        ]
+      },
+      "contact": {
+        "vn": [
+          "CV/Portfolio các bạn gửi về: hr.gplaystudio@gmail.com",
+          "Liên hệ: 0394503232",
+          "Địa chỉ: KĐT Pandora 53 Triều Khúc, Thanh Xuân, HN."
+        ],
+        "en": [
+          "Send your CV/Portfolio to: hr.gplaystudio@gmail.com",
+          "Phone: 0394503232",
+          "Address: Pandora Urban Area, 53 Triều Khúc, Thanh Xuân, Hanoi."
+        ]
+      }
+    }
   }
 ]

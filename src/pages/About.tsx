@@ -39,9 +39,9 @@ const About = () => {
             count: info.homeStats.gameCount,
         },
         {
-            icon: "users",
-            name: t("label.player"),
-            count: info.homeStats.playerCount,
+            icon: "download",
+            name: t("label.download"),
+            count: info.homeStats.totalDownloads,
         },
         {
             icon: "globe",

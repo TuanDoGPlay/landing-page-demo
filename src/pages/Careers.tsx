@@ -12,6 +12,8 @@ import {JobTypeMap} from "@/constants/jobType.ts";
 import LocalizeText from "@/components/LocalizeText.tsx";
 import benefits from "@/assets/data/benefits.json";
 import CompanyGallery from "@/components/CompanyGallery.tsx";
+import JobDescriptionPopup from "@/components/popups/JobDescriptionPopup.tsx";
+import {useState} from "react";
 
 interface Benefit {
     name: string;
@@ -21,13 +23,22 @@ interface Benefit {
 
 const Careers = () => {
     const { t } = useTranslation();
+    const [open, setOpen] = useState(false);
+    const [selectedJob, setSelectedJob] = useState<Job | null>(null);
+
 
     const jobOpenings = jobs as Job[];
     const benefitList = benefits as Benefit[];
 
+    const handleOpenJob = (job: Job) => {
+        setSelectedJob(job);
+        setOpen(true);
+    };
+
     return (
         <div className="min-h-screen bg-[#0a0a0a] text-gray-100">
             <Navigation />
+            <JobDescriptionPopup open={open} onClose={() => setOpen(false)} job={selectedJob}/>
 
             <main className="pt-36 pb-20">
                 {/* --- Header Section --- */}
@@ -100,7 +111,8 @@ const Careers = () => {
                                                     <h3 className="text-2xl font-bold text-white mb-2">
                                                         {job.name}
                                                     </h3>
-                                                    <LocalizeText data={job} className="text-gray-400"/>
+                                                    <LocalizeText vn={job.desVn} en={job.desEn}
+                                                                  className="text-gray-400"/>
                                                 </div>
 
                                                 <div className="flex flex-wrap gap-3 text-sm">
@@ -119,7 +131,7 @@ const Careers = () => {
 
                                             <Button
                                                 size="lg"
-                                                onClick={() => window.open(`/jd/${job.jd}`, "_blank")}
+                                                onClick={() => handleOpenJob(job)}
                                                 className="lg:w-auto w-full bg-transparent border border-primary text-primary hover:bg-primary hover:text-foreground font-semibold transition-colors"
                                             >
                                                 {t("button.view-jd")}

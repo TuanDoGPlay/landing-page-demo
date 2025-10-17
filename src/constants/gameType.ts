@@ -15,16 +15,9 @@ import {currentLanguage} from "@/lib/utils.ts";
 
 
 export enum GameTypeEnum {
-    Action = 1,
-    Adventure,
-    Arcade = 3,
-    Card = 4,
-    Casual = 5,
-    Driving = 6,
-    Fighting = 7,
-    MMO = 8,
-    Puzzle = 9,
-    Racing = 10,
+    Casual = 1,
+    Puzzle = 2,
+    Racing = 3
 }
 
 interface GameType {
@@ -55,11 +48,25 @@ class GameTypeInstance implements GameType {
 
 const data: GameType[] = [
     {
-        id: GameTypeEnum.Action,
-        name: "Action",
+        id: GameTypeEnum.Casual,
+        name: "Casual",
         icon: "heart",
-        vnName: "Hành động"
-    }
+        vnName: "Casual"
+    },
+    {
+        id: GameTypeEnum.Puzzle,
+        name: "Puzzle",
+        icon: "puzzle",
+        vnName: "Puzzle",
+    },
+    {
+        id: GameTypeEnum.Racing,
+        name: "Racing",
+        icon: "zap",
+        vnName: "Racing",
+    },
+
+
 ]
 
 export const GameTypeMap = new Map<GameTypeEnum, GameTypeInstance>(data.map(item => [item.id, new GameTypeInstance(item)]));

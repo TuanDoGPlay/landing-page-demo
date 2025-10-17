@@ -88,6 +88,12 @@
     "job": {
       "title": "Vị trí đang tuyển",
       "count": "vị trí đang mở",
+      "detail": {
+        "description": "Mô tả công việc",
+        "requirement": "Yêu cầu ứng viên",
+        "benefit": "Quyền lợi",
+        "contact": "Liên hệ"
+      },
       "general-application": {
         "title": "Không thấy vị trí phù hợp?",
         "description": "Chúng tôi luôn tìm kiếm những nhân tài mới. Gửi cho chúng tôi hồ sơ của bạn và cùng trao đổi về các cơ hội trong tương lai.",

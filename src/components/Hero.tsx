@@ -1,8 +1,8 @@
 import {Button} from "@/components/ui/button";
 import {ArrowRight} from "lucide-react";
-import heroImage from "@/assets/hero-characters.jpg";
 import {useTranslation} from "react-i18next";
 import info from "@/assets/data/info.json"
+import {useState} from "react";
 
 interface Stat {
     name: string,
@@ -11,15 +11,23 @@ interface Stat {
 
 const Hero = () => {
     const {t} = useTranslation();
+    const [backgroundImage, setBackgroundImage] = useState("background.png")
 
+    window.addEventListener("resize", () => {
+        if (window.innerWidth < 768) {
+            setBackgroundImage("mobile-background.png")
+        } else {
+            setBackgroundImage("background.png")
+        }
+    })
     const stats: Stat[] = [
         {
             name: "label.game",
             count: info.homeStats.gameCount,
         },
         {
-            name: "label.player",
-            count: info.homeStats.playerCount,
+            name: "label.download",
+            count: info.homeStats.totalDownloads,
         },
         {
             name: "label.country",
@@ -39,7 +47,7 @@ const Hero = () => {
               style={{
                   backgroundImage: `
       linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
-      url(${heroImage})
+      url('/${backgroundImage}')
     `,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
@@ -50,7 +58,7 @@ const Hero = () => {
             <h1 className="text-6xl sm:text-7xl md:text-8xl font-black tracking-tighter">
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent ">
                 {t("home-page.title")}
-            </span>
+             </span>
           </h1>
 
           <p className="text-xl sm:text-2xl md:text-3xl font-medium text-white max-w-2xl mx-auto leading-relaxed">

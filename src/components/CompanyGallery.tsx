@@ -64,8 +64,8 @@ const CompanyGallery = () => {
                         </CarouselContent>
 
                         {/* --- Controls --- */}
-                        <CarouselPrevious className="-left-10 bg-black/40 hover:bg-yellow-400  text-white"/>
-                        <CarouselNext className="-right-10 bg-black/40 hover:bg-yellow-400  text-white"/>
+                        <CarouselPrevious className="left-2 bg-black/40 hover:bg-yellow-400  text-white"/>
+                        <CarouselNext className="right-2 bg-black/40 hover:bg-yellow-400  text-white"/>
                     </Carousel>
                 </div>
             </div>
