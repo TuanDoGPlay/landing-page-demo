@@ -31,6 +31,7 @@ import {
 } from "lucide-react";
 import {IconBrandAppstore, IconBrandGooglePlay, IconBrandTiktok} from "@tabler/icons-react";
 import * as React from "react";
+import {Game} from "@/common/types.ts";
 
 const iconMap = {
     facebook: Facebook,
@@ -76,4 +77,23 @@ export const Icon = (name: string, className?: string) => {
 
 export function currentLanguage(): string {
     return localStorage.getItem("lang") || "vn";
+}
+
+export function sortGamesByInstall(
+    games: Game[],
+    order: "asc" | "desc" = "desc"
+): Game[] {
+    const parseAbbrev = (value: string): number => {
+        const num = parseFloat(value);
+        const upper = value.toUpperCase();
+
+        if (upper.includes("B")) return num * 1_000_000_000;
+        if (upper.includes("M")) return num * 1_000_000;
+        if (upper.includes("K")) return num * 1_000;
+        return num;
+    };
+    return [...games].sort((a, b) => {
+        const diff = parseAbbrev(a.install) - parseAbbrev(b.install);
+        return order === "asc" ? diff : -diff;
+    });
 }

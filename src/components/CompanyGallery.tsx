@@ -1,17 +1,26 @@
 import {Card, CardContent} from "@/components/ui/card";
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious,} from "@/components/ui/carousel";
 import {useTranslation} from "react-i18next";
+import {useEffect, useState} from "react";
 
 const CompanyGallery = () => {
     const {t} = useTranslation();
+    const [validImages, setValidImages] = useState([]);
 
-    const officeImages = [
-        {src: "company-1.jpg", title: "Office Day", desc: t("home.gallery.alt1")},
-        {src: "company-2.jpg", title: "Team Work", desc: t("home.gallery.alt2")},
-        {src: "company-3.jpg", title: "Company Trip", desc: t("home.gallery.alt3")},
-        {src: "company-4.jpg", title: "Studio Setup", desc: t("home.gallery.alt4")},
-        {src: "company-5.jpg", title: "Celebration", desc: t("home.gallery.alt5")},
-    ];
+    useEffect(() => {
+        const imagePromises = Array.from({length: 100}, (_, i) => i + 1).map(num => {
+            return new Promise(resolve => {
+                const img = new Image();
+                img.src = `/company-image/${num}.jpg`;
+                img.onload = () => resolve(num); // ảnh tồn tại
+                img.onerror = () => resolve(null); // ảnh lỗi → bỏ qua
+            });
+        });
+
+        Promise.all(imagePromises).then(results => {
+            setValidImages(results.filter(Boolean)); // chỉ giữ ảnh hợp lệ
+        });
+    }, []);
 
     return (
         <section id="gallery" className="bg-[#0a0a0a] text-gray-100 pb-40">
@@ -36,29 +45,24 @@ const CompanyGallery = () => {
                         className="w-full"
                     >
                         <CarouselContent className="">
-                            {officeImages.map((image, index) => (
+                            {validImages.map((image, index) => (
                                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                                    <div className="">
-                                        <Card
-                                            className="group overflow-hidden border border-gray-800 bg-[#121212] hover:border-yellow-400/60 transition-all duration-500 hover:shadow-[0_0_30px_rgba(255,204,0,0.25)] animate-scale-in"
-                                            style={{animationDelay: `${index * 150}ms`}}
-                                        >
-                                            <CardContent className="p-0">
-                                                {/* --- Image with overlay --- */}
-                                                <div className="relative overflow-hidden aspect-video">
-                                                    <img
-                                                        src={`/company-image/${image.src}`}
-                                                        alt={image.title}
-                                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                                    />
-
-                                                    {/* Overlay gradient (tối dần) */}
-                                                    <div
-                                                        className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"/>
-                                                </div>
-                                            </CardContent>
-                                        </Card>
-                                    </div>
+                                    <Card
+                                        className="group overflow-hidden border border-gray-800 bg-[#121212] hover:border-yellow-400/60 transition-all duration-500 hover:shadow-[0_0_30px_rgba(255,204,0,0.25)] animate-scale-in"
+                                        style={{animationDelay: `${index * 150}ms`}}
+                                    >
+                                        <CardContent className="p-0">
+                                            <div className="relative overflow-hidden aspect-video">
+                                                <img
+                                                    src={`/company-image/${image}.jpg`}
+                                                    alt={image.toString()}
+                                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                                />
+                                                <div
+                                                    className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"/>
+                                            </div>
+                                        </CardContent>
+                                    </Card>
                                 </CarouselItem>
                             ))}
                         </CarouselContent>

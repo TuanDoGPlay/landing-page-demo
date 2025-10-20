@@ -2,274 +2,378 @@
   {
     "name": "Annoying Puzzle Game",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.annoying.puzzle.game",
+    "appstore": "https://apps.apple.com/vn/app/annoying-puzzle-game/id6526475653",
     "type": 1,
     "install": "10M+",
-    "image": "Annoying.png"
+    "image": "Annoying.png",
+    "desVn": "Là một trò chơi hấp dẫn và kích thích trí tuệ, nơi người chơi giải các loại câu đố với nhiều mức độ khó khác nhau.",
+    "desEn": ""
+  },
+  {
+    "name": "Bird Sort 2: Color Puzzle",
+    "playstore": "https://play.google.com/store/apps/details?id=com.globalplay.birdsort2.color.puzzle",
+    "appstore": "https://apps.apple.com/us/app/bird-sort-2-color-puzzle-game/id6689494714",
+    "type": 2,
+    "install": "10M+",
+    "image": "BirdSort2ColorPuzzle.png",
+    "desVn": "",
+    "desEn": "For all those who love Bird Sort puzzle game, big news is here with Bird Sort 2 – new sorting rule, more challenging, more fun.\nThere are many supper hard levels that you've never found in the first Bird Sort. We make sure every levels can pass without using boosters. However, you can use boosters whenever you want to save chance to go through the supper hards. With new rules and many more game modes to conquer, try and feel the difference."
+  },
+  {
+    "name": "Bird Sort: Color Puzzle Game",
+    "playstore": "https://play.google.com/store/apps/details?id=com.globalplay.birdsort",
+    "appstore": "",
+    "type": 2,
+    "install": "10M+",
+    "image": "BirdSortColorPuzzleGame.png",
+    "desVn": "",
+    "desEn": "Welcome to the gentle world of Bird Sort Color, where the gentle embrace of nature meets the joy of relaxation! Say goodbye to ordinary puzzles and get ready for an exciting experience with lively avian characters and delightful asmr melodies. Bird Sort Color is the perfect blend of fun and relaxation."
   },
   {
     "name": "Makeup Fashion Live",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.makeup.fashion.live",
     "type": 2,
     "install": "10K+",
-    "image": "MakeupFashionLive.png"
+    "image": "MakeupFashionLive.png",
+    "desVn": "",
+    "desEn": "Welcome to Makeup Fashion Live – the hottest beauty makeover game where you become a true makeup artist!"
   },
   {
     "name": "Chibi Dress Up Stream",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.chibi.dress.up.stream",
     "type": 2,
     "install": "50K+",
-    "image": "ChibiDressUpStream.png"
+    "image": "ChibiDressUpStream.png",
+    "desVn": "",
+    "desEn": "Chibi Dress Up Stream would lead you step into the glamorous world of dress up and decoration. Experience the life of a famous steamer will numerous challenges and all kinds of competives PK battles."
   },
   {
     "name": "Tile Aqua Girl",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.tile.aqua.girl",
     "type": 1,
     "install": "5K+",
-    "image": "TileAquaGirl.png"
+    "image": "TileAquaGirl.png",
+    "desVn": "",
+    "desEn": "Looking for a unique puzzle game? Looking for moments of both relaxation and challenge? Enter the magical world of Tile Aqua Girl, where each level is a creative journey. Tile Aqua Girl turns ordinary puzzles into artistic experiences. Each level opens up a new challenge, taking you into an attractive puzzle flow that is both relaxing and exciting!"
   },
   {
     "name": "Horror Coloring: Draw Color",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.horror.coloring.draw.color",
     "type": 2,
     "install": "1M+",
-    "image": "HorrorColoringDrawColor.png"
+    "image": "HorrorColoringDrawColor.png",
+    "desVn": "",
+    "desEn": "With many beautiful coloring pages where creativity meets music! Immerse yourself in a vivid world and let your imagination soar as you color the characters in colorful ways."
   },
   {
     "name": "Sticker Decor Room",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.sticker.decor.room",
+    "appstore": "https://apps.apple.com/vn/app/sticker-decor-room/id6749666009",
     "type": 1,
     "install": "10K+",
-    "image": "StickerDecorRoom.png"
+    "image": "StickerDecorRoom.png",
+    "desVn": "",
+    "desEn": "Relax and unwind as you peel, drag, and place cute stickers to decorate charming rooms. From pastel bedrooms to magical living spaces, each level offers a delightful scene waiting to be completed with your unique touch."
   },
   {
     "name": "Sticker By Number: Puzzle Game",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.sticker.by.number.puzzle",
     "type": 1,
     "install": "1M+",
-    "image": "StickerByNumberPuzzleGame.png"
+    "image": "StickerByNumberPuzzleGame.png",
+    "desVn": "Hòa mình vào thế giới quyến rũ của Sticker By Number: Puzzle Game, nơi trí tưởng tượng đan xen với việc giải câu đố, mang đến trải nghiệm thú vị và hấp dẫn. Ứng dụng sáng tạo này kết hợp hoàn hảo niềm vui của việc tô màu dành cho người lớn, nghệ thuật chơi trò chơi và thử thách gắn kết trí tuệ. Nó mang đến một lối thoát độc đáo và yên tĩnh, kết hợp niềm vui thiền định của việc tô màu với sự phấn khích khi giải câu đố.",
+    "desEn": ""
   },
   {
     "name": "Annoying Puzzle Game 2",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.annoying.puzzle.game2",
+    "appstore": "https://apps.apple.com/vn/app/annoying-puzzle-game-2/id6742167326",
     "type": 1,
     "install": "1M+",
-    "image": "Annoying2.png"
+    "image": "Annoying2.png",
+    "desVn": "",
+    "desEn": "Now get ready to welcome fun puzzles and exciting challenges in Annoying Puzzle Game 2! This is an intellectual game. Enjoy brain games designed for people who are passionate about difficult experiences and other intellectual challenges!"
   },
   {
     "name": "Pixel by Color: Pixel Art",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.pixel.by.color.pixel.art",
     "type": 1,
     "install": "1M+",
-    "image": "PixelByColorPixelArt.png"
+    "image": "PixelByColorPixelArt.png",
+    "desVn": "",
+    "desEn": "\"Pixel by Color: Pixel Art\" is a game that collects a wide variety of giant pixel art pieces from around the world or allows you to import your own images to create a personalized color-by-number experience."
   },
   {
     "name": "Wood Cube Out 3D",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.wood.cube.out.3d",
+    "appstore": "https://apps.apple.com/vn/app/wood-cube-out-3d/id6742124552",
     "type": 1,
     "install": "50K+",
-    "image": "WoodCubeOut3D.png"
+    "image": "WoodCubeOut3D.png",
+    "desVn": "",
+    "desEn": "Wood Cube Out 3D is an engaging puzzle game where players must dismantle wooden blocks connected by screws in a 3D space. Each level presents the player with situations that require precision and clever thinking to remove the components in a logical way. The screws need to be removed according to their matching colors to free the wooden blocks and progress to the next level. The main goal of the game is to disassemble the objects by sorting and removing screws of the same color. The game not only demands strategic thinking but also requires focus to avoid blockages and complete the tasks quickly and efficiently!!!"
   },
   {
     "name": "Find in Funny Story",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.find.in.funny.story",
     "type": 1,
     "install": "100K+",
-    "image": "FindInFunnyStory.png"
+    "image": "FindInFunnyStory.png",
+    "desVn": "",
+    "desEn": "The most fun and addictive hidden object game for you is Find in Funny Story. It allows you to discover all the hidden objects in vividly illustrated images that are full of life and ready to burst through your screen."
   },
   {
     "name": "Art Puzzle: Jigsaw Story",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.art.puzzle.jigsaw.story",
     "type": 1,
     "install": "1M+",
-    "image": "ArtPuzzleJigsawStory.png"
+    "image": "ArtPuzzleJigsawStory.png",
+    "desVn": "",
+    "desEn": "This is a new interesting game with picture puzzles and an art jigsaw. All you have to do in this exciting art game is guess the shadows of objects."
   },
   {
     "name": "Makeover Sort",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.makeover.sort",
     "type": 2,
     "install": "10K+",
-    "image": "MakeoverSort.png"
+    "image": "MakeoverSort.png",
+    "desVn": "",
+    "desEn": "Let's challenge the sharpness of your eyes by collecting and merging the diversity of makeup and skincare items. Your mission is to distinguish a ton of makeup-skincare items and merge them into the ordered boxes. Try to merge as fast as you can to satisfy your customers. Don't let them angry!"
   },
   {
     "name": "AnnoyTok",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.annoytok",
     "type": 1,
-    "install": "100K+",
-    "image": "AnnoyTok.png"
+    "install": "10K+",
+    "image": "AnnoyTok.png",
+    "desVn": "",
+    "desEn": "Ready for the most addictive and frustrating puzzle game on your phone? Welcome to AnnoyTok – where every level presents a ridiculous situation that’s both hilarious and challenging, leaving you unsure whether to laugh or cry!"
   },
   {
     "name": "Makeover: Makeup & Nail Salon",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.makeover.makeup.nail.salon",
     "type": 2,
-    "install": "1K+",
-    "image": "MakeoverMakeupNailSalon.png"
+    "install": "100K+",
+    "image": "MakeoverMakeupNailSalon.png",
+    "desVn": "",
+    "desEn": "Come to Makeover: Makeup & Nail Salon to have the most beautiful appearance.\nHave you ever felt self-deprecating and ashamed because of your not-so-beautiful appearance?\nHave you ever been laughed at and teased about your ugly skin?\nYou don't dare to go to parties because you don't have beautiful hair and nails?"
   },
   {
     "name": "Bartender Sort",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.bartender.sort",
     "type": 1,
-    "install": "500K+",
-    "image": "BartenderSort.png"
+    "install": "1K+",
+    "image": "BartenderSort.png",
+    "desVn": "",
+    "desEn": "Bartender Sort is a unique liquid sorting puzzle game \uD83E\uDDEA combined with a drink-making and customer-serving theme. Players must use logic \uD83E\uDDE0 and strategy to organize different colored liquids in test tubes, ensuring that each tube contains only one color. The challenge lies in carefully pouring and transferring liquids between tubes while following the game’s constraints."
   },
   {
     "name": "Market Sort",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.market.sort",
     "type": 1,
-    "install": "100K+",
-    "image": "MarketSort.png"
+    "install": "5K+",
+    "image": "MarketSort.png",
+    "desVn": "",
+    "desEn": "Let's challenge the sharpness of your eyes by collecting and combining various unique products to fill up shelves, completing all the product triplets. Your task is to differentiate a range of goods and organize them into the assigned boxes. Try to combine them as quickly as possible to satisfy your customers. Don’t let them get angry!"
   },
   {
     "name": "Wood Blocks: Color Sort",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.wood.blocks.color.sort",
     "type": 1,
-    "install": "100K+",
-    "image": "WoodBlocksColorSort.png"
+    "install": "10K+",
+    "image": "WoodBlocksColorSort.png",
+    "desVn": "",
+    "desEn": "Whether you're subject to be a fan of color sorting and wood blocks, this game is designed especially for you.\nThe colorful wood blocks will satisfy you and make every level a challenging experience. The goal is not only sorting the blocks by color but also have to match with the requirement of each level. It's sound challenging for those who want to train their brain to think strategically and enhance problem-solving abilities. Move the blocks around, identify the patterns to find the correct match and complete the sort puzzle."
   },
   {
     "name": "Match Packing 3D",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.match.packing.3d",
+    "appstore": "https://apps.apple.com/vn/app/match-packing-3d/id6743143189",
     "type": 1,
-    "install": "500K+",
-    "image": "MatchPacking3D.png"
+    "install": "10K+",
+    "image": "MatchPacking3D.png",
+    "desVn": "",
+    "desEn": "Experience the thrill of Match Packing 3D – the ultimate destination for endless matching fun! This game offers a perfect blend of relaxing entertainment and brain-teasing challenges. Some items may be hidden, making it more difficult to find and match three identical objects."
   },
   {
     "name": "Wood Jam: Color Block",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.wood.jam.color.block",
     "type": 1,
-    "install": "100K+",
-    "image": "WoodJamColorBlock.png"
+    "install": "10K+",
+    "image": "WoodJamColorBlock.png",
+    "desVn": "",
+    "desEn": "Wood Jam: Color Block – Unleash Your Mind, Conquer the Challenge!\nImmerse yourself in Wood Jam: Color Block, the ultimate block puzzle game that will sharpen your mind and keep you entertained for hours! In this engaging and strategic puzzle adventure, your goal is simple: move the colorful blocks to their matching doors to clear the way. But don’t be fooled—each level introduces new obstacles and challenges, requiring you to think carefully and plan your moves to master every puzzle."
   },
   {
     "name": "Road Reckless Racing",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.road.reckless.racing",
     "type": 3,
-    "install": "1M+",
-    "image": "RoadRecklessRacing.png"
+    "install": "50K+",
+    "image": "RoadRecklessRacing.png",
+    "desVn": "",
+    "desEn": "The racetrack is designed with interesting obstacles. Your goal is not only to reach the finish line first but also to fight against your opponents with powerful kicks and punches. This game combines speed, driving skills, and combat abilities. Make use of the support items that appear on the screen to boost your strength and effectively overcome your opponents."
   },
   {
     "name": "Find Cat: Spot It Out",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.find.cat.spot.it.out",
     "type": 1,
-    "install": "100K+",
-    "image": "FindCatSpotItOut.png"
+    "install": "1K+",
+    "image": "FindCatSpotItOut.png",
+    "desVn": "",
+    "desEn": "The cutest and most addictive cat finder game for you is \"Find Cat: Spot It Out\". This game lets you discover hidden cats in vibrant, vibrant illustrations that are ready to burst onto your screen. \uD83D\uDD0D\uD83D\uDD0D\uD83D\uDD0DSearch, trace and find in stunning graphics where you will have hundreds of cats to collect for added hunting fun. The beautiful images satisfy your visual senses and further sharpen your observation skills."
   },
   {
     "name": "Bubble Shooter: Origin Games",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.bubble.shooter.origin",
     "type": 1,
-    "install": "1M+",
-    "image": "BubbleShooterOriginGames.png"
+    "install": "10K+",
+    "image": "BubbleShooterOriginGames.png",
+    "desVn": "",
+    "desEn": "The game brings you the joy of popping colorful bubbles of the same color. In the game, match 3 to release and burst the colorful balls."
   },
   {
     "name": "Real Car Driving: Open World",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.real.car.driving.openworld",
     "type": 3,
-    "install": "1M+",
-    "image": "RealCarDrivingOpenWorld.png"
+    "install": "100K+",
+    "image": "RealCarDrivingOpenWorld.png",
+    "desVn": "",
+    "desEn": "Do you want to try the sports car driving simulation game? Enjoy a variety of vehicles with realistic controls. Drive on highways, weave through traffic, and overcome obstacles for rewards. The game offers a diverse range of cars with rich customization options, allowing you to change, equip, and upgrade your vehicle."
   },
   {
     "name": "Brain Annoying: Tricky Puzzle",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.brain.annoying.tricky.puzzle",
     "type": 1,
-    "install": "5M+",
-    "image": "BrainAnnoyingTrickyPuzzle.png"
+    "install": "10K+",
+    "image": "BrainAnnoyingTrickyPuzzle.png",
+    "desVn": "",
+    "desEn": "Put your brain and reverse thinking to the test to earn ultimate rewards!\nYou’ll be amazed by the answers: Can it really be played this way?!"
   },
   {
     "name": "Jigsaw Story: Puzzle Games",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.jigsaw.story.puzzle",
     "type": 1,
-    "install": "1M+",
-    "image": "JigsawStoryPuzzleGames.png"
+    "install": "50K+",
+    "image": "JigsawStoryPuzzleGames.png",
+    "desVn": "",
+    "desEn": "Jigsaw Story Puzzle Game is a simple yet captivating game with over 15,000 adorable HD pictures available for free. No scoring is required, no worry about missing puzzle pieces—just enjoy the fun of piecing them together for a relaxing and enjoyable time."
   },
   {
     "name": "Perfect Puzzle Satisfying Game",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.perfect.puzzle.satisfying",
     "type": 1,
-    "install": "500K+",
-    "image": "PerfectPuzzleSatisfyingGame.png"
+    "install": "1K+",
+    "image": "PerfectPuzzleSatisfyingGame.png",
+    "desVn": "",
+    "desEn": "A game that satisfies maximum relaxation.\nCapable of reducing symptoms of OCD.\nWith diverse stages such as cleaning up, solving puzzles, and little games.\nPerfect~~~ You will be immersed in the utmost gentle experience with interesting challenges."
   },
   {
     "name": "Cartoon Coloring Monster Color",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.cartoon.coloring.monster.color",
     "type": 2,
-    "install": "100K+",
-    "image": "CartoonColoringMonsterColor.png"
+    "install": "1M+",
+    "image": "CartoonColoringMonsterColor.png",
+    "desVn": "",
+    "desEn": " Immerse yourself in creativity with the Colorful Characters Coloring Game!\uD83C\uDFA8\nGet ready to embark on an artistic journey that blends fun, relaxation, and creativity."
   },
   {
     "name": "Draw & Color: Drawing Book",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.draw.color.drawing.book",
     "type": 2,
-    "install": "100K+",
-    "image": "DrawColorDrawingBook.png"
+    "install": "500K+",
+    "image": "DrawColorDrawingBook.png",
+    "desVn": "",
+    "desEn": "\"Draw & Color: Drawing Book\" is an art-oriented coloring game, featuring a simple and user-friendly interface. Now on your phone, it's like an endless coloring book. Complete hundreds of beautiful drawings, enhance your artistic skills, and relieve your stress with this creative, bright game, satisfying and endlessly relaxing players of all ages."
   },
   {
     "name": "Princess Coloring: Anime Color",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.princess.coloring.anime.color",
     "type": 2,
-    "install": "1M+",
-    "image": "PrincessColoringAnimeColor.png"
+    "install": "100K+",
+    "image": "PrincessColoringAnimeColor.png",
+    "desVn": "",
+    "desEn": "\"Princess Coloring: Anime Color\" is a coloring game that offers a unique and exciting experience for those who love the world of princesses and magical kingdoms."
   },
   {
     "name": "Match Triple 3D: Family Story",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.match.triple3d.family.story",
     "type": 1,
-    "install": "10M+",
-    "image": "MatchTriple3DFamilyStory.png"
+    "install": "10K+",
+    "image": "MatchTriple3DFamilyStory.png",
+    "desVn": "",
+    "desEn": "As you move objects on the screen, they will collide in a truly 3D way. When objects are matched at each level, you'll surely be pleased with the fascinating visual effects!"
   },
   {
     "name": "Tile Match: Family Story",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.tile.match.family.story",
     "type": 1,
-    "install": "5M+",
-    "image": "TileMatchFamilyStory.png"
+    "install": "1M+",
+    "image": "TileMatchFamilyStory.png",
+    "desVn": "",
+    "desEn": "\"Tile Match: Family Story\" brings together the combination of a tile matching game with deep and engaging story snippets. Each level is associated with a part of the story, where you match three identical tiles. When all tiles are cleared from the puzzle board, you win! If the board fills up with 7 tiles, you lose. You progress through solving puzzles by matching three tiles to collect components of the mission and get closer to completing the story."
   },
   {
     "name": "Makeover Dress Up: Paper Doll",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.makeover.dressup.paperdoll",
+    "appstore": "https://apps.apple.com/vn/app/paper-doll-diy-dress-up/id6505061266",
     "type": 2,
-    "install": "500K+",
-    "image": "MakeoverDressUpPaperDoll.png"
+    "install": "1M+",
+    "image": "MakeoverDressUpPaperDoll.png",
+    "desVn": "",
+    "desEn": "In Makeover Dress Up: Paper Doll, you step into the role of a doll fashion designer in a magical world of creativity and allure. The game delivers an enjoyable playing experience with essential features that allow you to showcase your design talent."
   },
   {
     "name": "Wood Nuts & Bolts: Story Games",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.wood.nuts.bolts.story.games",
     "type": 1,
-    "install": "100K+",
-    "image": "WoodNutsBoltsStoryGames.png"
+    "install": "50K+",
+    "image": "WoodNutsBoltsStoryGames.png",
+    "desVn": "",
+    "desEn": "Wood Nuts & Bolts: Story Game is an engaging and captivating game revolving\naround the world the wood and bolts, combining creativity with strategic challenges. Your mission is to remove all the nuts and bolts from the screws and strategically release each wooden nut."
   },
   {
     "name": "Matching Bird: Family Story",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.matching.bird.family.story",
     "type": 1,
-    "install": "10M+",
-    "image": "MatchingBirdFamilyStory.png"
+    "install": "100K+",
+    "image": "MatchingBirdFamilyStory.png",
+    "desVn": "",
+    "desEn": "Welcome to the soothing world of Matching Bird: Family Story, where the gentle embrace of nature meets the joy of relaxation! Say goodbye to the usual puzzles and prepare for an exciting experience with funny bird characters and relaxing and adorable ASMR tunes, Bird Color Sort is the perfect combination of fun and relax."
   },
   {
     "name": "Fish Sort: Sorting Color",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.fish.sort.sorting.color",
     "type": 1,
-    "install": "1M+",
-    "image": "FishSortSortingColor.png"
+    "install": "10K+",
+    "image": "FishSortSortingColor.png",
+    "desVn": "",
+    "desEn": "Fish Sort: Sorting Color is a game with a simple and addictive fish-sorting color puzzle game. This game is a free-brain puzzle game, with no time limit and is easy to play."
   },
   {
     "name": "Triple Bird Match Master",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.triple.bird.match.master",
     "type": 1,
-    "install": "5M+",
-    "image": "TripleBirdMatchMaster.png"
+    "install": "100K+",
+    "image": "TripleBirdMatchMaster.png",
+    "desVn": "",
+    "desEn": "Triple Bird Match Master is a challenging and interesting matching game! It's very easy to learn how to play for everyone!\nLooking at Birds piled up on the tree, do you want to unjumble them? Triple Bird Match Master offers you challenging levels to triple match and match these birds!"
   },
   {
     "name": "Art Puzzle: Jigsaw Classic",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.art.puzzle.jigsaw.classic",
     "type": 1,
     "install": "1M+",
-    "image": "ArtPuzzleJigsawClassic.png"
+    "image": "ArtPuzzleJigsawClassic.png",
+    "desVn": "",
+    "desEn": "This is a new interesting game with picture puzzles and an art jigsaw. All you have to do in this exciting art game is guess the shadows of objects."
   },
   {
     "name": "Pixel By Color: Art Puzzle",
     "playstore": "https://play.google.com/store/apps/details?id=com.gplay.pixel.by.color.art.puzzle",
     "type": 1,
-    "install": "500K+",
-    "image": "PixelByColorArtPuzzle.png"
+    "install": "5M+",
+    "image": "PixelByColorArtPuzzle.png",
+    "desVn": "",
+    "desEn": "Pixel By Color: Art Puzzle is an easy game that has lots of beautiful pixel art by using numbers, pixels, and color blocks. Color by number, create your artworks, and relax with pixel games!!!"
   }
 ]

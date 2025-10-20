@@ -1,7 +1,7 @@
 {
   "label": {
     "game": "Game",
-    "career": "Career",
+    "career": "Careers",
     "support": "Support",
     "about": "About Us",
     "company": "Company",
@@ -9,14 +9,15 @@
     "player": "Player",
     "country": "Country",
     "year": "Year",
-    "download": "downloads",
+    "download": "Downloads",
     "contact": "Contact"
   },
   "button": {
     "play-now": "Play Now",
     "apply-now": "Apply Now",
     "play-on-android": "Play on Android",
-    "play-on-ios": "Play on iOS"
+    "play-on-ios": "Play on iOS",
+    "view-jd": "View JD"
   },
   "navbar": {
     "home": "Home",
@@ -28,7 +29,7 @@
   },
   "footer": {
     "title": "GLOBAL PLAY STUDIO",
-    "description": "Building games that connect people and create unforgettable experiences.",
+    "description": "Creating games that connect people and deliver unforgettable experiences.",
     "social-network": [
       {
         "name": "Facebook",
@@ -47,24 +48,28 @@
     "background": "/game-image/hero-characters.jpg",
     "button": {
       "introduce": {
-        "name": "Introduce",
+        "name": "About Us",
         "link": "/about"
       },
       "explore": {
-        "name": "Explore Games",
+        "name": "Explore Our Games",
         "link": "/games"
       }
     },
     "game": {
       "title": "Our Games",
-      "description": "Experience worlds that millions call home."
+      "description": "Experience worlds that millions of players call home."
+    },
+    "gallery": {
+      "title": "Work Environment",
+      "description": "A dynamic workplace where ideas are sparked and turned into reality together."
     }
   },
   "game-page": {
     "title": "Our Games",
-    "description": "Explore our collection of legendary games loved by millions of players worldwide.",
+    "description": "Discover a collection of legendary games loved by millions of players around the world.",
     "view-on-store": {
-      "title": "Join millions of players",
+      "title": "Join Millions of Players",
       "description": "Download our games and become part of the global GPlay community.",
       "android": {
         "title": "Download on Android"
@@ -75,43 +80,49 @@
     }
   },
   "career-page": {
-    "title": "Join Our Team",
-    "description": "Create amazing games together with passionate and creative people.",
+    "title": "Join Our Journey",
+    "description": "Let’s create amazing games together with passionate and creative people.",
     "benefit": {
       "title": "Why Choose GPlay?"
     },
     "job": {
       "title": "Open Positions",
       "count": "positions available",
+      "detail": {
+        "description": "Job Description",
+        "requirement": "Requirements",
+        "benefit": "Benefits",
+        "contact": "Contact"
+      },
       "general-application": {
         "title": "Don’t see a suitable position?",
-        "description": "We’re always looking for new talent. Send us your resume and let’s discuss future opportunities together.",
-        "text-button": "Send Resume"
+        "description": "We’re always looking for new talents. Send us your resume and let’s talk about future opportunities.",
+        "text-button": "Submit Resume"
       }
     }
   },
   "about-page": {
     "title": "About GPlay Studio",
-    "description": "We are a passionate team of developers, artists, and dreamers — united by a shared mission to create legendary gaming experiences that connect players around the world.",
+    "description": "We are a passionate team of developers, artists, and dreamers — united by a goal to create legendary gaming experiences that connect players worldwide.",
     "mission": {
       "title": "Our Mission",
-      "description": "To create games that transcend boundaries, cultures, and languages — bringing joy, excitement, and connection to millions of players globally."
+      "description": "To create games that transcend borders, cultures, and languages — bringing joy, excitement, and connection to millions of players around the world."
     },
     "vision": {
       "title": "Our Vision",
-      "description": "To become the world’s most beloved game company, known for unforgettable experiences and inspiring the next generation of gamers."
+      "description": "To become the world’s most beloved gaming company, known for unforgettable experiences and inspiring the next generation of gamers."
     },
     "value": {
       "title": "Core Values",
       "list": [
         {
           "name": "Players First",
-          "description": "Every decision starts with the player. Their experience, joy, and feedback drive everything we do.",
+          "description": "Every decision we make starts with the player. Their experience, joy, and feedback drive everything we do.",
           "icon": "heart"
         },
         {
           "name": "Innovation",
-          "description": "We continuously experiment and create to deliver unique gaming experiences.",
+          "description": "We constantly experiment and innovate to deliver unique gaming experiences.",
           "icon": "zap"
         },
         {
@@ -134,8 +145,8 @@
       },
       {
         "year": "2016",
-        "title": "First Game Launch",
-        "description": "Released our first mobile game, reaching 1 million downloads in the first month."
+        "title": "First Game Released",
+        "description": "Launched our first mobile game, reaching 1 million downloads in the first month."
       },
       {
         "year": "2018",
@@ -145,46 +156,46 @@
       {
         "year": "2020",
         "title": "100 Million Players",
-        "description": "Reached 100 million players across all GPlay games."
+        "description": "Reached the milestone of 100 million players across all GPlay games."
       },
       {
         "year": "2022",
-        "title": "International Recognition",
-        "description": "Received multiple industry awards for game design and innovation."
+        "title": "International Awards",
+        "description": "Received multiple industry awards for design and innovation."
       },
       {
         "year": "2024",
         "title": "500 Million Players",
-        "description": "Serving over 500 million players worldwide with more than 7 hit titles."
+        "description": "Serving over 500 million players worldwide with more than 7 blockbuster titles."
       }
     ],
     "join": {
-      "title": "Join Our Journey",
-      "description": "We’re always looking for talented and passionate people to help us build the next generation of legendary games.",
+      "title": "Join the Journey with Us",
+      "description": "We’re always looking for talented and passionate people to help create the next generation of legendary games.",
       "button-text": "View Open Positions"
     }
   },
   "support-page": {
     "title": "Contact Support",
-    "description": "Get answers to your questions and solutions to your issues.",
+    "description": "Find answers to your questions and solutions to your issues.",
     "phone": {
       "icon": "phone",
       "title": "Call Us Directly",
-      "description": "Reach out to us through our support hotline.",
+      "description": "Reach out to us via our support hotline.",
       "action": "Call Now",
       "available": "0123 456 789"
     },
     "facebook": {
       "icon": "facebook",
       "title": "Official Facebook Page",
-      "description": "Connect and message us via GPLAY Studio Fanpage.",
+      "description": "Connect and chat with us through the GPLAY Studio Fanpage.",
       "action": "Visit Fanpage",
       "available": "Quick response during working hours"
     },
     "mail": {
       "icon": "mail",
-      "title": "Gmail Support",
-      "description": "We respond to all inquiries within 24 hours.",
+      "title": "Support via Email",
+      "description": "We’ll respond within 24 hours.",
       "action": "Send Email",
       "available": "Response within 24 hours"
     }

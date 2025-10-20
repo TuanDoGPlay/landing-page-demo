@@ -5,16 +5,17 @@ import {Button} from "@/components/ui/button";
 import {Badge} from "@/components/ui/badge";
 import {Download} from "lucide-react";
 import {useTranslation} from "react-i18next";
-import {Icon} from "@/lib/utils.ts";
+import {Icon, sortGamesByInstall} from "@/lib/utils.ts";
 import games from "@/assets/data/games.json";
 import {Game} from "@/common/types.ts";
 import info from "@/assets/data/info.json";
 import {IconBrandAppstore, IconBrandGooglePlay} from "@tabler/icons-react";
 import {GameTypeMap} from "@/constants/gameType.ts";
+import LocalizeText from "@/components/LocalizeText.tsx";
 
 const Games = () => {
     const { t } = useTranslation();
-    const allGames = games as Game[];
+    const allGames = sortGamesByInstall(games as Game[]);
 
     return (
         <div className="min-h-screen bg-[#0a0a0a] text-gray-100">
@@ -67,8 +68,8 @@ const Games = () => {
                                             <h3 className="text-2xl font-bold text-white group-hover:text-yellow-400 transition-colors mb-2 overflow-hidden text-ellipsis whitespace-nowrap">
                                                 {game.name}
                                             </h3>
-                                            {/*<LocalizeText vn={game.desVn} en={game.desEn}*/}
-                                            {/*              className="text-gray-400 text-sm line-clamp-2"/>*/}
+                                            <LocalizeText vn={game.desVn} en={game.desEn}
+                                                          className="text-gray-400 text-sm line-clamp-2 h-10"/>
                                         </div>
 
                                         <div className="flex items-center gap-4 text-sm text-gray-400">
@@ -82,6 +83,7 @@ const Games = () => {
                                             <Button
                                                 className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold transition-colors"
                                                 variant="default"
+                                                onClick={() => window.open(game.playstore)}
                                             >
                                                 <IconBrandGooglePlay/>
                                                 {t("button.play-on-android")}
@@ -89,6 +91,7 @@ const Games = () => {
                                             {game.appstore && <Button
                                                 className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold transition-colors"
                                                 variant="default"
+                                                onClick={() => window.open(game.appstore)}
                                             >
                                                 <IconBrandAppstore/>
                                                 {t("button.play-on-ios")}

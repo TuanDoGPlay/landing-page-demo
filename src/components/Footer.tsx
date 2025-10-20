@@ -1,7 +1,8 @@
 import {useTranslation} from "react-i18next";
-import {Icon} from "@/lib/utils.ts";
+import {Icon, sortGamesByInstall} from "@/lib/utils.ts";
 import games from "@/assets/data/games.json";
 import info from "@/assets/data/info.json"
+import {Game} from "@/common/types.ts";
 
 interface Item {
     name: string,
@@ -11,8 +12,7 @@ interface Item {
 const Footer = () => {
     const {t} = useTranslation();
 
-    const topGames = games.slice(0, 4);
-
+    const topGames = sortGamesByInstall(games as Game[]).slice(0, 4);
     const companySection = [
         {
             name: t("label.about"),
@@ -20,7 +20,7 @@ const Footer = () => {
         },
         {
             name: t("label.career"),
-            link: "/career"
+            link: "/careers"
         },
         {
             name: t("label.support"),
