@@ -171,7 +171,7 @@ const About = () => {
                                 </div>
                             ))}
                         </div>
-                    </div>\
+                    </div>
                 </section>
 
                 {/* --- Join Section --- */}

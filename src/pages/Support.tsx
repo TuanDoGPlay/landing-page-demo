@@ -25,15 +25,15 @@ const Support = () => {
                                 className="border border-gray-800 bg-[#121212] hover:border-yellow-400/60 hover:shadow-[0_0_30px_rgba(255,204,0,0.25)] transition-all animate-scale-in"
                                 style={{animationDelay: `100ms`}}
                             >
-                                <CardContent className="p-6 space-y-4 text-center">
+                                <CardContent className="p-6 space-y-4 text-center flex flex-col h-full">
                                     <div
                                         className="h-16 w-16 rounded-full bg-yellow-500/10 flex items-center justify-center mx-auto">
                                         <Phone className="h-8 w-8 text-yellow-400"/>
                                     </div>
-                                    <div>
+                                    <div className="flex-1">
                                         <h3 className="text-xl font-bold text-white mb-2">{t("support-page.phone.title")}</h3>
                                         <p className="text-gray-400 mb-1">{t("support-page.phone.description")}</p>
-                                        <p className="text-sm text-gray-500">{info.phone}</p>
+                                        <p className="text-sm text-gray-500 truncate">{info.phone}</p>
                                     </div>
                                     <Button
                                         className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold">
@@ -45,15 +45,15 @@ const Support = () => {
                                 className="border border-gray-800 bg-[#121212] hover:border-yellow-400/60 hover:shadow-[0_0_30px_rgba(255,204,0,0.25)] transition-all animate-scale-in"
                                 style={{animationDelay: `100ms`}}
                             >
-                                <CardContent className="p-6 space-y-4 text-center">
+                                <CardContent className="p-6 space-y-4 text-center flex flex-col h-full">
                                     <div
                                         className="h-16 w-16 rounded-full bg-yellow-500/10 flex items-center justify-center mx-auto">
                                         <Facebook className="h-8 w-8 text-yellow-400"/>
                                     </div>
-                                    <div>
+                                    <div className="flex-1">
                                         <h3 className="text-xl font-bold text-white mb-2">{t("support-page.facebook.title")}</h3>
                                         <p className="text-gray-400 mb-1">{t("support-page.facebook.description")}</p>
-                                        <p className="text-sm text-gray-500">{info.pageFB}</p>
+                                        <p className="text-sm text-gray-500 truncate">{info.pageFB}</p>
                                     </div>
                                     <Button
                                         asChild
@@ -66,20 +66,20 @@ const Support = () => {
                                 className="border border-gray-800 bg-[#121212] hover:border-yellow-400/60 hover:shadow-[0_0_30px_rgba(255,204,0,0.25)] transition-all animate-scale-in"
                                 style={{animationDelay: `100ms`}}
                             >
-                                <CardContent className="p-6 space-y-4 text-center">
+                                <CardContent className="p-6 space-y-4 text-center flex flex-col h-full">
                                     <div
                                         className="h-16 w-16 rounded-full bg-yellow-500/10 flex items-center justify-center mx-auto">
                                         <Mail className="h-8 w-8 text-yellow-400"/>
                                     </div>
-                                    <div>
+                                    <div className="flex-1">
                                         <h3 className="text-xl font-bold text-white mb-2">{t("support-page.mail.title")}</h3>
                                         <p className="text-gray-400 mb-1">{t("support-page.mail.description")}</p>
-                                        <p className="text-sm text-gray-500">{info.mailHr}</p>
+                                        <p className="text-sm text-gray-500 truncate">{info.supportMail}</p>
                                     </div>
                                     <Button
                                         asChild
                                         className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-semibold">
-                                        <a href={`mailto:${info.mailHr}`}>{t("support-page.mail.action")}</a>
+                                        <a href={`mailto:${info.supportMail}`}>{t("support-page.mail.action")}</a>
 
                                     </Button>
                                 </CardContent>

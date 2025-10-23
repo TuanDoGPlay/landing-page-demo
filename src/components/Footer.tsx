@@ -55,7 +55,7 @@ const Footer = () => {
 
                 <div className="space-y-4">
                     <h4 className="text-lg font-bold">{t("label.game")}</h4>
-              <ul className="space-y-3">
+              <ul className="space-y-4">
                   {topGames.map((game) => (
                       <li key={game.name}>
                     <a
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
                 <div className="space-y-4">
                     <h4 className="text-lg font-bold">{t("label.company")}</h4>
-                    <ul className="space-y-3">
+                    <ul className="space-y-4">
                         {companySection.map((link) => (
                             <li key={link.name}>
                                 <a
@@ -94,7 +94,6 @@ const Footer = () => {
                     </ul>
                 </div>
         </div>
-
             <div className="pt-4 border-t border-background/10 text-center text-background/60">
             <p>{t("footer.copyright")}</p>
         </div>
